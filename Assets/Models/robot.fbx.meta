@@ -1,0 +1,2320 @@
+fileFormatVersion: 2
+guid: d7b75e5bb3e472d428d405af211754f3
+timeCreated: 1519501445
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Char_A_1
+    100002: Char_B_1
+    100004: Char_d_1
+    100006: Char_i_1
+    100008: Char_o_1
+    100010: Char_Q_1
+    100012: Char_S_1
+    100014: Char_t_1
+    100016: Char_u_1
+    100018: curve1
+    100020: curve10
+    100022: curve11
+    100024: curve12
+    100026: curve13
+    100028: curve14
+    100030: curve15
+    100032: curve16
+    100034: curve2
+    100036: curve3
+    100038: curve4
+    100040: curve5
+    100042: curve6
+    100044: curve7
+    100046: curve8
+    100048: curve9
+    100050: er1:leave_cor:robot_2:ball_LOC
+    100052: er1:leave_cor:robot_2:ball_LOC 1
+    100054: er1:leave_cor:robot_2:bank_L
+    100056: er1:leave_cor:robot_2:bank_R
+    100058: er1:leave_cor:robot_2:bankL
+    100060: er1:leave_cor:robot_2:bankR
+    100062: er1:leave_cor:robot_2:group1
+    100064: er1:leave_cor:robot_2:group2
+    100066: er1:leave_cor:robot_2:head
+    100068: er1:leave_cor:robot_2:head_dummy
+    100070: er1:leave_cor:robot_2:head_joint
+    100072: er1:leave_cor:robot_2:heel_LOC
+    100074: er1:leave_cor:robot_2:heel_LOC 1
+    100076: er1:leave_cor:robot_2:ikHandle2
+    100078: er1:leave_cor:robot_2:ikHandle3
+    100080: er1:leave_cor:robot_2:joint18
+    100082: er1:leave_cor:robot_2:joint18 1
+    100084: er1:leave_cor:robot_2:joint18 2
+    100086: er1:leave_cor:robot_2:joint19
+    100088: er1:leave_cor:robot_2:joint19 1
+    100090: er1:leave_cor:robot_2:joint19 2
+    100092: er1:leave_cor:robot_2:joint20
+    100094: er1:leave_cor:robot_2:joint20 1
+    100096: er1:leave_cor:robot_2:joint20 2
+    100098: er1:leave_cor:robot_2:joint24
+    100100: er1:leave_cor:robot_2:joint25
+    100102: er1:leave_cor:robot_2:joint27
+    100104: er1:leave_cor:robot_2:joint28
+    100106: er1:leave_cor:robot_2:joint30
+    100108: er1:leave_cor:robot_2:joint31
+    100110: er1:leave_cor:robot_2:joint32
+    100112: er1:leave_cor:robot_2:joint34
+    100114: er1:leave_cor:robot_2:joint35
+    100116: er1:leave_cor:robot_2:joint36
+    100118: er1:leave_cor:robot_2:joint38
+    100120: er1:leave_cor:robot_2:joint39
+    100122: er1:leave_cor:robot_2:joint40
+    100124: er1:leave_cor:robot_2:joint41
+    100126: er1:leave_cor:robot_2:joint42
+    100128: er1:leave_cor:robot_2:joint43
+    100130: er1:leave_cor:robot_2:joint44
+    100132: er1:leave_cor:robot_2:joint45
+    100134: er1:leave_cor:robot_2:leftClavicle_JNT
+    100136: er1:leave_cor:robot_2:leftElbow_JNT
+    100138: er1:leave_cor:robot_2:leftIndex_JNT
+    100140: er1:leave_cor:robot_2:leftLeg_ball_HDL
+    100142: er1:leave_cor:robot_2:leftLeg_ball_JNT
+    100144: er1:leave_cor:robot_2:leftLeg_Foot_JNT
+    100146: er1:leave_cor:robot_2:leftLeg_foot_JNT
+    100148: er1:leave_cor:robot_2:leftLeg_hip_JNT
+    100150: er1:leave_cor:robot_2:leftLeg_knee_JNT
+    100152: er1:leave_cor:robot_2:leftLeg_toe_HDL
+    100154: er1:leave_cor:robot_2:leftLeg_toe_JNT
+    100156: er1:leave_cor:robot_2:leftMid_JNT
+    100158: er1:leave_cor:robot_2:leftPinky_JNT
+    100160: er1:leave_cor:robot_2:leftShoulder_JNT
+    100162: er1:leave_cor:robot_2:leftThumb_JNT
+    100164: er1:leave_cor:robot_2:leftWrist_end_JNT
+    100166: er1:leave_cor:robot_2:leftWrist_JNT
+    100168: er1:leave_cor:robot_2:neck_1
+    100170: er1:leave_cor:robot_2:neck_2
+    100172: er1:leave_cor:robot_2:neck_3
+    100174: er1:leave_cor:robot_2:neck_4
+    100176: er1:leave_cor:robot_2:neck_5
+    100178: er1:leave_cor:robot_2:pCube10
+    100180: er1:leave_cor:robot_2:pCube10 1
+    100182: er1:leave_cor:robot_2:pCube11
+    100184: er1:leave_cor:robot_2:pCube11 1
+    100186: er1:leave_cor:robot_2:pCube12
+    100188: er1:leave_cor:robot_2:pCube12 1
+    100190: er1:leave_cor:robot_2:pCube13
+    100192: er1:leave_cor:robot_2:pCube13 1
+    100194: er1:leave_cor:robot_2:pCube14
+    100196: er1:leave_cor:robot_2:pCube14 1
+    100198: er1:leave_cor:robot_2:pCube15
+    100200: er1:leave_cor:robot_2:pCube15 1
+    100202: er1:leave_cor:robot_2:pCube16
+    100204: er1:leave_cor:robot_2:pCube16 1
+    100206: er1:leave_cor:robot_2:pCube17
+    100208: er1:leave_cor:robot_2:pCube17 1
+    100210: er1:leave_cor:robot_2:pCube18
+    100212: er1:leave_cor:robot_2:pCube18 1
+    100214: er1:leave_cor:robot_2:pCube19
+    100216: er1:leave_cor:robot_2:pCube19 1
+    100218: er1:leave_cor:robot_2:pCube2
+    100220: er1:leave_cor:robot_2:pCube20
+    100222: er1:leave_cor:robot_2:pCube20 1
+    100224: er1:leave_cor:robot_2:pCube3
+    100226: er1:leave_cor:robot_2:pCube5
+    100228: er1:leave_cor:robot_2:pCube6
+    100230: er1:leave_cor:robot_2:pCube7
+    100232: er1:leave_cor:robot_2:pCube7 1
+    100234: er1:leave_cor:robot_2:pCube8
+    100236: er1:leave_cor:robot_2:pCube8 1
+    100238: er1:leave_cor:robot_2:pCylinder1
+    100240: er1:leave_cor:robot_2:pCylinder10
+    100242: er1:leave_cor:robot_2:pCylinder11
+    100244: er1:leave_cor:robot_2:pCylinder12
+    100246: er1:leave_cor:robot_2:pCylinder15
+    100248: er1:leave_cor:robot_2:pCylinder16
+    100250: er1:leave_cor:robot_2:pCylinder17
+    100252: er1:leave_cor:robot_2:pCylinder19
+    100254: er1:leave_cor:robot_2:pCylinder19 1
+    100256: er1:leave_cor:robot_2:pCylinder5
+    100258: er1:leave_cor:robot_2:pCylinder9
+    100260: er1:leave_cor:robot_2:polySurface1
+    100262: er1:leave_cor:robot_2:polySurface14
+    100264: er1:leave_cor:robot_2:polySurface14 1
+    100266: er1:leave_cor:robot_2:polySurface15
+    100268: er1:leave_cor:robot_2:polySurface16
+    100270: er1:leave_cor:robot_2:polySurface17
+    100272: er1:leave_cor:robot_2:polySurface2
+    100274: er1:leave_cor:robot_2:polySurface3
+    100276: er1:leave_cor:robot_2:polySurface4
+    100278: er1:leave_cor:robot_2:polySurface5
+    100280: er1:leave_cor:robot_2:polySurface6
+    100282: er1:leave_cor:robot_2:polySurface7
+    100284: er1:leave_cor:robot_2:polySurface8
+    100286: er1:leave_cor:robot_2:pPipe1
+    100288: er1:leave_cor:robot_2:pPipe1 1
+    100290: er1:leave_cor:robot_2:pPipe10
+    100292: er1:leave_cor:robot_2:pPipe10 1
+    100294: er1:leave_cor:robot_2:pPipe11
+    100296: er1:leave_cor:robot_2:pPipe11 1
+    100298: er1:leave_cor:robot_2:pPipe13
+    100300: er1:leave_cor:robot_2:pPipe13 1
+    100302: er1:leave_cor:robot_2:pPipe2
+    100304: er1:leave_cor:robot_2:pPipe2 1
+    100306: er1:leave_cor:robot_2:pPipe3
+    100308: er1:leave_cor:robot_2:pPipe3 1
+    100310: er1:leave_cor:robot_2:pPipe4
+    100312: er1:leave_cor:robot_2:pPipe4 1
+    100314: er1:leave_cor:robot_2:pPipe5
+    100316: er1:leave_cor:robot_2:pPipe5 1
+    100318: er1:leave_cor:robot_2:pPipe6
+    100320: er1:leave_cor:robot_2:pPipe6 1
+    100322: er1:leave_cor:robot_2:pPipe7
+    100324: er1:leave_cor:robot_2:pPipe7 1
+    100326: er1:leave_cor:robot_2:pPipe8
+    100328: er1:leave_cor:robot_2:pPipe8 1
+    100330: er1:leave_cor:robot_2:pPipe9
+    100332: er1:leave_cor:robot_2:pPipe9 1
+    100334: er1:leave_cor:robot_2:pSphere1
+    100336: er1:leave_cor:robot_2:pSphere1 1
+    100338: er1:leave_cor:robot_2:pSphere2
+    100340: er1:leave_cor:robot_2:pSphere2 1
+    100342: er1:leave_cor:robot_2:rightClavicle_JNT
+    100344: er1:leave_cor:robot_2:rightElbow_JNT
+    100346: er1:leave_cor:robot_2:rightIndex_JNT
+    100348: er1:leave_cor:robot_2:rightLeg_ball_HDL
+    100350: er1:leave_cor:robot_2:rightLeg_ball_JNT
+    100352: er1:leave_cor:robot_2:rightLeg_Foot_JNT
+    100354: er1:leave_cor:robot_2:rightLeg_foot_JNT
+    100356: er1:leave_cor:robot_2:rightLeg_GRP
+    100358: er1:leave_cor:robot_2:rightLeg_hip_JNT
+    100360: er1:leave_cor:robot_2:rightLeg_knee_JNT
+    100362: er1:leave_cor:robot_2:rightLeg_toe_HDL
+    100364: er1:leave_cor:robot_2:rightLeg_toe_JNT
+    100366: er1:leave_cor:robot_2:rightMid_JNT
+    100368: er1:leave_cor:robot_2:rightPinky_JNT
+    100370: er1:leave_cor:robot_2:rightShoulder_JNT
+    100372: er1:leave_cor:robot_2:rightThumb_JNT
+    100374: er1:leave_cor:robot_2:rightWrist_end_JNT
+    100376: er1:leave_cor:robot_2:rightWrist_JNT
+    100378: er1:leave_cor:robot_2:toe_LOC
+    100380: er1:leave_cor:robot_2:toe_LOC 1
+    100382: er1:leave_cor:robot_2:toeWiggle_GRP
+    100384: er1:leave_cor:robot_2:toeWiiggle_GRP
+    100386: er1:leave_cor:robot_2:transform1
+    100388: er1:leave_cor:robot_2:transform2
+    100390: er1:leave_cor:robot_2:transform3
+    100392: er1:leave_cor:robot_2:transform4
+    100394: er1:leave_cor:robot_2:transform5
+    100396: er1:leave_cor:robot_2:transform_Nodes
+    100398: Left_Arm_Ctrl
+    100400: Left_Arm_grp
+    100402: Left_Elbow_Ctrl
+    100404: Left_Foot_Ctrl
+    100406: Left_Index_Ctrl
+    100408: Left_Knee_Ctrl
+    100410: Left_Knee_Grp
+    100412: Left_Leg_Grp
+    100414: Left_Pinky_Ctrl
+    100416: Left_Ring_Ctrl
+    100418: Left_Shoulder_Ctrl
+    100420: Left_Thumb_Ctrl
+    100422: Left_Wirst_Ctrl
+    100424: Master_Robot_Ctrl
+    100426: Right_Arm_Ctrl
+    100428: Right_Arm_ggrp
+    100430: Right_Elbow_Ctrl
+    100432: Right_Foot_Ctrl
+    100434: Right_Index_Ctrl
+    100436: Right_Knee_Ctrl
+    100438: Right_Knee_Grp
+    100440: Right_Mid_Ctrl
+    100442: Right_Pinky_Ctrl
+    100444: Right_Ring_Ctrl
+    100446: Right_Shoulder_Ctrl
+    100448: Right_Wrist_Ctrl
+    100450: //RootNode
+    100452: Robot_Chest_Ctrl
+    100454: Robot_Grp_Ctrl
+    100456: Robot_Head_Ctrl
+    100458: Robot_Neck_High_Ctrl
+    100460: Robot_Neck_Mid_Ctrl
+    100462: Robot_Root_Ctrl
+    100464: Robot_Spine_1_Ctrl
+    100466: Robot_Spine_2_Ctrl
+    100468: Robot_Torso_Grp
+    100470: Text_BAQStudio_1
+    400000: Char_A_1
+    400002: Char_B_1
+    400004: Char_d_1
+    400006: Char_i_1
+    400008: Char_o_1
+    400010: Char_Q_1
+    400012: Char_S_1
+    400014: Char_t_1
+    400016: Char_u_1
+    400018: curve1
+    400020: curve10
+    400022: curve11
+    400024: curve12
+    400026: curve13
+    400028: curve14
+    400030: curve15
+    400032: curve16
+    400034: curve2
+    400036: curve3
+    400038: curve4
+    400040: curve5
+    400042: curve6
+    400044: curve7
+    400046: curve8
+    400048: curve9
+    400050: er1:leave_cor:robot_2:ball_LOC
+    400052: er1:leave_cor:robot_2:ball_LOC 1
+    400054: er1:leave_cor:robot_2:bank_L
+    400056: er1:leave_cor:robot_2:bank_R
+    400058: er1:leave_cor:robot_2:bankL
+    400060: er1:leave_cor:robot_2:bankR
+    400062: er1:leave_cor:robot_2:group1
+    400064: er1:leave_cor:robot_2:group2
+    400066: er1:leave_cor:robot_2:head
+    400068: er1:leave_cor:robot_2:head_dummy
+    400070: er1:leave_cor:robot_2:head_joint
+    400072: er1:leave_cor:robot_2:heel_LOC
+    400074: er1:leave_cor:robot_2:heel_LOC 1
+    400076: er1:leave_cor:robot_2:ikHandle2
+    400078: er1:leave_cor:robot_2:ikHandle3
+    400080: er1:leave_cor:robot_2:joint18
+    400082: er1:leave_cor:robot_2:joint18 1
+    400084: er1:leave_cor:robot_2:joint18 2
+    400086: er1:leave_cor:robot_2:joint19
+    400088: er1:leave_cor:robot_2:joint19 1
+    400090: er1:leave_cor:robot_2:joint19 2
+    400092: er1:leave_cor:robot_2:joint20
+    400094: er1:leave_cor:robot_2:joint20 1
+    400096: er1:leave_cor:robot_2:joint20 2
+    400098: er1:leave_cor:robot_2:joint24
+    400100: er1:leave_cor:robot_2:joint25
+    400102: er1:leave_cor:robot_2:joint27
+    400104: er1:leave_cor:robot_2:joint28
+    400106: er1:leave_cor:robot_2:joint30
+    400108: er1:leave_cor:robot_2:joint31
+    400110: er1:leave_cor:robot_2:joint32
+    400112: er1:leave_cor:robot_2:joint34
+    400114: er1:leave_cor:robot_2:joint35
+    400116: er1:leave_cor:robot_2:joint36
+    400118: er1:leave_cor:robot_2:joint38
+    400120: er1:leave_cor:robot_2:joint39
+    400122: er1:leave_cor:robot_2:joint40
+    400124: er1:leave_cor:robot_2:joint41
+    400126: er1:leave_cor:robot_2:joint42
+    400128: er1:leave_cor:robot_2:joint43
+    400130: er1:leave_cor:robot_2:joint44
+    400132: er1:leave_cor:robot_2:joint45
+    400134: er1:leave_cor:robot_2:leftClavicle_JNT
+    400136: er1:leave_cor:robot_2:leftElbow_JNT
+    400138: er1:leave_cor:robot_2:leftIndex_JNT
+    400140: er1:leave_cor:robot_2:leftLeg_ball_HDL
+    400142: er1:leave_cor:robot_2:leftLeg_ball_JNT
+    400144: er1:leave_cor:robot_2:leftLeg_Foot_JNT
+    400146: er1:leave_cor:robot_2:leftLeg_foot_JNT
+    400148: er1:leave_cor:robot_2:leftLeg_hip_JNT
+    400150: er1:leave_cor:robot_2:leftLeg_knee_JNT
+    400152: er1:leave_cor:robot_2:leftLeg_toe_HDL
+    400154: er1:leave_cor:robot_2:leftLeg_toe_JNT
+    400156: er1:leave_cor:robot_2:leftMid_JNT
+    400158: er1:leave_cor:robot_2:leftPinky_JNT
+    400160: er1:leave_cor:robot_2:leftShoulder_JNT
+    400162: er1:leave_cor:robot_2:leftThumb_JNT
+    400164: er1:leave_cor:robot_2:leftWrist_end_JNT
+    400166: er1:leave_cor:robot_2:leftWrist_JNT
+    400168: er1:leave_cor:robot_2:neck_1
+    400170: er1:leave_cor:robot_2:neck_2
+    400172: er1:leave_cor:robot_2:neck_3
+    400174: er1:leave_cor:robot_2:neck_4
+    400176: er1:leave_cor:robot_2:neck_5
+    400178: er1:leave_cor:robot_2:pCube10
+    400180: er1:leave_cor:robot_2:pCube10 1
+    400182: er1:leave_cor:robot_2:pCube11
+    400184: er1:leave_cor:robot_2:pCube11 1
+    400186: er1:leave_cor:robot_2:pCube12
+    400188: er1:leave_cor:robot_2:pCube12 1
+    400190: er1:leave_cor:robot_2:pCube13
+    400192: er1:leave_cor:robot_2:pCube13 1
+    400194: er1:leave_cor:robot_2:pCube14
+    400196: er1:leave_cor:robot_2:pCube14 1
+    400198: er1:leave_cor:robot_2:pCube15
+    400200: er1:leave_cor:robot_2:pCube15 1
+    400202: er1:leave_cor:robot_2:pCube16
+    400204: er1:leave_cor:robot_2:pCube16 1
+    400206: er1:leave_cor:robot_2:pCube17
+    400208: er1:leave_cor:robot_2:pCube17 1
+    400210: er1:leave_cor:robot_2:pCube18
+    400212: er1:leave_cor:robot_2:pCube18 1
+    400214: er1:leave_cor:robot_2:pCube19
+    400216: er1:leave_cor:robot_2:pCube19 1
+    400218: er1:leave_cor:robot_2:pCube2
+    400220: er1:leave_cor:robot_2:pCube20
+    400222: er1:leave_cor:robot_2:pCube20 1
+    400224: er1:leave_cor:robot_2:pCube3
+    400226: er1:leave_cor:robot_2:pCube5
+    400228: er1:leave_cor:robot_2:pCube6
+    400230: er1:leave_cor:robot_2:pCube7
+    400232: er1:leave_cor:robot_2:pCube7 1
+    400234: er1:leave_cor:robot_2:pCube8
+    400236: er1:leave_cor:robot_2:pCube8 1
+    400238: er1:leave_cor:robot_2:pCylinder1
+    400240: er1:leave_cor:robot_2:pCylinder10
+    400242: er1:leave_cor:robot_2:pCylinder11
+    400244: er1:leave_cor:robot_2:pCylinder12
+    400246: er1:leave_cor:robot_2:pCylinder15
+    400248: er1:leave_cor:robot_2:pCylinder16
+    400250: er1:leave_cor:robot_2:pCylinder17
+    400252: er1:leave_cor:robot_2:pCylinder19
+    400254: er1:leave_cor:robot_2:pCylinder19 1
+    400256: er1:leave_cor:robot_2:pCylinder5
+    400258: er1:leave_cor:robot_2:pCylinder9
+    400260: er1:leave_cor:robot_2:polySurface1
+    400262: er1:leave_cor:robot_2:polySurface14
+    400264: er1:leave_cor:robot_2:polySurface14 1
+    400266: er1:leave_cor:robot_2:polySurface15
+    400268: er1:leave_cor:robot_2:polySurface16
+    400270: er1:leave_cor:robot_2:polySurface17
+    400272: er1:leave_cor:robot_2:polySurface2
+    400274: er1:leave_cor:robot_2:polySurface3
+    400276: er1:leave_cor:robot_2:polySurface4
+    400278: er1:leave_cor:robot_2:polySurface5
+    400280: er1:leave_cor:robot_2:polySurface6
+    400282: er1:leave_cor:robot_2:polySurface7
+    400284: er1:leave_cor:robot_2:polySurface8
+    400286: er1:leave_cor:robot_2:pPipe1
+    400288: er1:leave_cor:robot_2:pPipe1 1
+    400290: er1:leave_cor:robot_2:pPipe10
+    400292: er1:leave_cor:robot_2:pPipe10 1
+    400294: er1:leave_cor:robot_2:pPipe11
+    400296: er1:leave_cor:robot_2:pPipe11 1
+    400298: er1:leave_cor:robot_2:pPipe13
+    400300: er1:leave_cor:robot_2:pPipe13 1
+    400302: er1:leave_cor:robot_2:pPipe2
+    400304: er1:leave_cor:robot_2:pPipe2 1
+    400306: er1:leave_cor:robot_2:pPipe3
+    400308: er1:leave_cor:robot_2:pPipe3 1
+    400310: er1:leave_cor:robot_2:pPipe4
+    400312: er1:leave_cor:robot_2:pPipe4 1
+    400314: er1:leave_cor:robot_2:pPipe5
+    400316: er1:leave_cor:robot_2:pPipe5 1
+    400318: er1:leave_cor:robot_2:pPipe6
+    400320: er1:leave_cor:robot_2:pPipe6 1
+    400322: er1:leave_cor:robot_2:pPipe7
+    400324: er1:leave_cor:robot_2:pPipe7 1
+    400326: er1:leave_cor:robot_2:pPipe8
+    400328: er1:leave_cor:robot_2:pPipe8 1
+    400330: er1:leave_cor:robot_2:pPipe9
+    400332: er1:leave_cor:robot_2:pPipe9 1
+    400334: er1:leave_cor:robot_2:pSphere1
+    400336: er1:leave_cor:robot_2:pSphere1 1
+    400338: er1:leave_cor:robot_2:pSphere2
+    400340: er1:leave_cor:robot_2:pSphere2 1
+    400342: er1:leave_cor:robot_2:rightClavicle_JNT
+    400344: er1:leave_cor:robot_2:rightElbow_JNT
+    400346: er1:leave_cor:robot_2:rightIndex_JNT
+    400348: er1:leave_cor:robot_2:rightLeg_ball_HDL
+    400350: er1:leave_cor:robot_2:rightLeg_ball_JNT
+    400352: er1:leave_cor:robot_2:rightLeg_Foot_JNT
+    400354: er1:leave_cor:robot_2:rightLeg_foot_JNT
+    400356: er1:leave_cor:robot_2:rightLeg_GRP
+    400358: er1:leave_cor:robot_2:rightLeg_hip_JNT
+    400360: er1:leave_cor:robot_2:rightLeg_knee_JNT
+    400362: er1:leave_cor:robot_2:rightLeg_toe_HDL
+    400364: er1:leave_cor:robot_2:rightLeg_toe_JNT
+    400366: er1:leave_cor:robot_2:rightMid_JNT
+    400368: er1:leave_cor:robot_2:rightPinky_JNT
+    400370: er1:leave_cor:robot_2:rightShoulder_JNT
+    400372: er1:leave_cor:robot_2:rightThumb_JNT
+    400374: er1:leave_cor:robot_2:rightWrist_end_JNT
+    400376: er1:leave_cor:robot_2:rightWrist_JNT
+    400378: er1:leave_cor:robot_2:toe_LOC
+    400380: er1:leave_cor:robot_2:toe_LOC 1
+    400382: er1:leave_cor:robot_2:toeWiggle_GRP
+    400384: er1:leave_cor:robot_2:toeWiiggle_GRP
+    400386: er1:leave_cor:robot_2:transform1
+    400388: er1:leave_cor:robot_2:transform2
+    400390: er1:leave_cor:robot_2:transform3
+    400392: er1:leave_cor:robot_2:transform4
+    400394: er1:leave_cor:robot_2:transform5
+    400396: er1:leave_cor:robot_2:transform_Nodes
+    400398: Left_Arm_Ctrl
+    400400: Left_Arm_grp
+    400402: Left_Elbow_Ctrl
+    400404: Left_Foot_Ctrl
+    400406: Left_Index_Ctrl
+    400408: Left_Knee_Ctrl
+    400410: Left_Knee_Grp
+    400412: Left_Leg_Grp
+    400414: Left_Pinky_Ctrl
+    400416: Left_Ring_Ctrl
+    400418: Left_Shoulder_Ctrl
+    400420: Left_Thumb_Ctrl
+    400422: Left_Wirst_Ctrl
+    400424: Master_Robot_Ctrl
+    400426: Right_Arm_Ctrl
+    400428: Right_Arm_ggrp
+    400430: Right_Elbow_Ctrl
+    400432: Right_Foot_Ctrl
+    400434: Right_Index_Ctrl
+    400436: Right_Knee_Ctrl
+    400438: Right_Knee_Grp
+    400440: Right_Mid_Ctrl
+    400442: Right_Pinky_Ctrl
+    400444: Right_Ring_Ctrl
+    400446: Right_Shoulder_Ctrl
+    400448: Right_Wrist_Ctrl
+    400450: //RootNode
+    400452: Robot_Chest_Ctrl
+    400454: Robot_Grp_Ctrl
+    400456: Robot_Head_Ctrl
+    400458: Robot_Neck_High_Ctrl
+    400460: Robot_Neck_Mid_Ctrl
+    400462: Robot_Root_Ctrl
+    400464: Robot_Spine_1_Ctrl
+    400466: Robot_Spine_2_Ctrl
+    400468: Robot_Torso_Grp
+    400470: Text_BAQStudio_1
+    2100000: er1_leave_cor_phong5_samurai_silver
+    2100002: er1_leave_cor_mia_material_x2_samurai_rubber
+    2100004: er1_phong13
+    2100006: er1_leave_cor_blinn10_MILITARY_EYE
+    2300000: er1:leave_cor:robot_2:pCube10
+    2300002: er1:leave_cor:robot_2:pCube10 1
+    2300004: er1:leave_cor:robot_2:pCube11
+    2300006: er1:leave_cor:robot_2:pCube11 1
+    2300008: er1:leave_cor:robot_2:pCube12
+    2300010: er1:leave_cor:robot_2:pCube12 1
+    2300012: er1:leave_cor:robot_2:pCube13
+    2300014: er1:leave_cor:robot_2:pCube13 1
+    2300016: er1:leave_cor:robot_2:pCube14
+    2300018: er1:leave_cor:robot_2:pCube14 1
+    2300020: er1:leave_cor:robot_2:pCube15
+    2300022: er1:leave_cor:robot_2:pCube15 1
+    2300024: er1:leave_cor:robot_2:pCube16
+    2300026: er1:leave_cor:robot_2:pCube16 1
+    2300028: er1:leave_cor:robot_2:pCube17
+    2300030: er1:leave_cor:robot_2:pCube17 1
+    2300032: er1:leave_cor:robot_2:pCube18
+    2300034: er1:leave_cor:robot_2:pCube18 1
+    2300036: er1:leave_cor:robot_2:pCube19
+    2300038: er1:leave_cor:robot_2:pCube19 1
+    2300040: er1:leave_cor:robot_2:pCube2
+    2300042: er1:leave_cor:robot_2:pCube20
+    2300044: er1:leave_cor:robot_2:pCube20 1
+    2300046: er1:leave_cor:robot_2:pCube3
+    2300048: er1:leave_cor:robot_2:pCube5
+    2300050: er1:leave_cor:robot_2:pCube6
+    2300052: er1:leave_cor:robot_2:pCube7
+    2300054: er1:leave_cor:robot_2:pCube7 1
+    2300056: er1:leave_cor:robot_2:pCube8
+    2300058: er1:leave_cor:robot_2:pCube8 1
+    2300060: er1:leave_cor:robot_2:pCylinder10
+    2300062: er1:leave_cor:robot_2:pCylinder11
+    2300064: er1:leave_cor:robot_2:pCylinder12
+    2300066: er1:leave_cor:robot_2:pCylinder15
+    2300068: er1:leave_cor:robot_2:pCylinder16
+    2300070: er1:leave_cor:robot_2:pCylinder17
+    2300072: er1:leave_cor:robot_2:pCylinder19
+    2300074: er1:leave_cor:robot_2:pCylinder19 1
+    2300076: er1:leave_cor:robot_2:pCylinder5
+    2300078: er1:leave_cor:robot_2:pCylinder9
+    2300080: er1:leave_cor:robot_2:polySurface1
+    2300082: er1:leave_cor:robot_2:polySurface2
+    2300084: er1:leave_cor:robot_2:polySurface3
+    2300086: er1:leave_cor:robot_2:polySurface4
+    2300088: er1:leave_cor:robot_2:polySurface5
+    2300090: er1:leave_cor:robot_2:polySurface6
+    2300092: er1:leave_cor:robot_2:polySurface7
+    2300094: er1:leave_cor:robot_2:polySurface8
+    2300096: er1:leave_cor:robot_2:pPipe1
+    2300098: er1:leave_cor:robot_2:pPipe1 1
+    2300100: er1:leave_cor:robot_2:pPipe10
+    2300102: er1:leave_cor:robot_2:pPipe10 1
+    2300104: er1:leave_cor:robot_2:pPipe11
+    2300106: er1:leave_cor:robot_2:pPipe11 1
+    2300108: er1:leave_cor:robot_2:pPipe13
+    2300110: er1:leave_cor:robot_2:pPipe13 1
+    2300112: er1:leave_cor:robot_2:pPipe2
+    2300114: er1:leave_cor:robot_2:pPipe2 1
+    2300116: er1:leave_cor:robot_2:pPipe3
+    2300118: er1:leave_cor:robot_2:pPipe3 1
+    2300120: er1:leave_cor:robot_2:pPipe4
+    2300122: er1:leave_cor:robot_2:pPipe4 1
+    2300124: er1:leave_cor:robot_2:pPipe5
+    2300126: er1:leave_cor:robot_2:pPipe5 1
+    2300128: er1:leave_cor:robot_2:pPipe6
+    2300130: er1:leave_cor:robot_2:pPipe6 1
+    2300132: er1:leave_cor:robot_2:pPipe7
+    2300134: er1:leave_cor:robot_2:pPipe7 1
+    2300136: er1:leave_cor:robot_2:pPipe8
+    2300138: er1:leave_cor:robot_2:pPipe8 1
+    2300140: er1:leave_cor:robot_2:pPipe9
+    2300142: er1:leave_cor:robot_2:pPipe9 1
+    2300144: er1:leave_cor:robot_2:pSphere1
+    2300146: er1:leave_cor:robot_2:pSphere1 1
+    2300148: er1:leave_cor:robot_2:pSphere2
+    2300150: er1:leave_cor:robot_2:pSphere2 1
+    3300000: er1:leave_cor:robot_2:pCube10
+    3300002: er1:leave_cor:robot_2:pCube10 1
+    3300004: er1:leave_cor:robot_2:pCube11
+    3300006: er1:leave_cor:robot_2:pCube11 1
+    3300008: er1:leave_cor:robot_2:pCube12
+    3300010: er1:leave_cor:robot_2:pCube12 1
+    3300012: er1:leave_cor:robot_2:pCube13
+    3300014: er1:leave_cor:robot_2:pCube13 1
+    3300016: er1:leave_cor:robot_2:pCube14
+    3300018: er1:leave_cor:robot_2:pCube14 1
+    3300020: er1:leave_cor:robot_2:pCube15
+    3300022: er1:leave_cor:robot_2:pCube15 1
+    3300024: er1:leave_cor:robot_2:pCube16
+    3300026: er1:leave_cor:robot_2:pCube16 1
+    3300028: er1:leave_cor:robot_2:pCube17
+    3300030: er1:leave_cor:robot_2:pCube17 1
+    3300032: er1:leave_cor:robot_2:pCube18
+    3300034: er1:leave_cor:robot_2:pCube18 1
+    3300036: er1:leave_cor:robot_2:pCube19
+    3300038: er1:leave_cor:robot_2:pCube19 1
+    3300040: er1:leave_cor:robot_2:pCube2
+    3300042: er1:leave_cor:robot_2:pCube20
+    3300044: er1:leave_cor:robot_2:pCube20 1
+    3300046: er1:leave_cor:robot_2:pCube3
+    3300048: er1:leave_cor:robot_2:pCube5
+    3300050: er1:leave_cor:robot_2:pCube6
+    3300052: er1:leave_cor:robot_2:pCube7
+    3300054: er1:leave_cor:robot_2:pCube7 1
+    3300056: er1:leave_cor:robot_2:pCube8
+    3300058: er1:leave_cor:robot_2:pCube8 1
+    3300060: er1:leave_cor:robot_2:pCylinder10
+    3300062: er1:leave_cor:robot_2:pCylinder11
+    3300064: er1:leave_cor:robot_2:pCylinder12
+    3300066: er1:leave_cor:robot_2:pCylinder15
+    3300068: er1:leave_cor:robot_2:pCylinder16
+    3300070: er1:leave_cor:robot_2:pCylinder17
+    3300072: er1:leave_cor:robot_2:pCylinder19
+    3300074: er1:leave_cor:robot_2:pCylinder19 1
+    3300076: er1:leave_cor:robot_2:pCylinder5
+    3300078: er1:leave_cor:robot_2:pCylinder9
+    3300080: er1:leave_cor:robot_2:polySurface1
+    3300082: er1:leave_cor:robot_2:polySurface2
+    3300084: er1:leave_cor:robot_2:polySurface3
+    3300086: er1:leave_cor:robot_2:polySurface4
+    3300088: er1:leave_cor:robot_2:polySurface5
+    3300090: er1:leave_cor:robot_2:polySurface6
+    3300092: er1:leave_cor:robot_2:polySurface7
+    3300094: er1:leave_cor:robot_2:polySurface8
+    3300096: er1:leave_cor:robot_2:pPipe1
+    3300098: er1:leave_cor:robot_2:pPipe1 1
+    3300100: er1:leave_cor:robot_2:pPipe10
+    3300102: er1:leave_cor:robot_2:pPipe10 1
+    3300104: er1:leave_cor:robot_2:pPipe11
+    3300106: er1:leave_cor:robot_2:pPipe11 1
+    3300108: er1:leave_cor:robot_2:pPipe13
+    3300110: er1:leave_cor:robot_2:pPipe13 1
+    3300112: er1:leave_cor:robot_2:pPipe2
+    3300114: er1:leave_cor:robot_2:pPipe2 1
+    3300116: er1:leave_cor:robot_2:pPipe3
+    3300118: er1:leave_cor:robot_2:pPipe3 1
+    3300120: er1:leave_cor:robot_2:pPipe4
+    3300122: er1:leave_cor:robot_2:pPipe4 1
+    3300124: er1:leave_cor:robot_2:pPipe5
+    3300126: er1:leave_cor:robot_2:pPipe5 1
+    3300128: er1:leave_cor:robot_2:pPipe6
+    3300130: er1:leave_cor:robot_2:pPipe6 1
+    3300132: er1:leave_cor:robot_2:pPipe7
+    3300134: er1:leave_cor:robot_2:pPipe7 1
+    3300136: er1:leave_cor:robot_2:pPipe8
+    3300138: er1:leave_cor:robot_2:pPipe8 1
+    3300140: er1:leave_cor:robot_2:pPipe9
+    3300142: er1:leave_cor:robot_2:pPipe9 1
+    3300144: er1:leave_cor:robot_2:pSphere1
+    3300146: er1:leave_cor:robot_2:pSphere1 1
+    3300148: er1:leave_cor:robot_2:pSphere2
+    3300150: er1:leave_cor:robot_2:pSphere2 1
+    4300000: er1:leave_cor:robot_2:polySurface5
+    4300002: er1:leave_cor:robot_2:pCylinder11
+    4300004: er1:leave_cor:robot_2:pCube2
+    4300006: er1:leave_cor:robot_2:pCube3
+    4300008: er1:leave_cor:robot_2:polySurface6
+    4300010: er1:leave_cor:robot_2:pCylinder17
+    4300012: er1:leave_cor:robot_2:pCube5
+    4300014: er1:leave_cor:robot_2:pCube6
+    4300016: er1:leave_cor:robot_2:pPipe11
+    4300018: er1:leave_cor:robot_2:pCube20
+    4300020: er1:leave_cor:robot_2:pPipe13
+    4300022: er1:leave_cor:robot_2:pCube19
+    4300024: er1:leave_cor:robot_2:pPipe3
+    4300026: er1:leave_cor:robot_2:pCube17
+    4300028: er1:leave_cor:robot_2:pPipe2
+    4300030: er1:leave_cor:robot_2:pCube14
+    4300032: er1:leave_cor:robot_2:pPipe8
+    4300034: er1:leave_cor:robot_2:pCube11
+    4300036: er1:leave_cor:robot_2:pPipe5
+    4300038: er1:leave_cor:robot_2:pCube16
+    4300040: er1:leave_cor:robot_2:pPipe4
+    4300042: er1:leave_cor:robot_2:pCube13
+    4300044: er1:leave_cor:robot_2:pPipe9
+    4300046: er1:leave_cor:robot_2:pCube10
+    4300048: er1:leave_cor:robot_2:pPipe7
+    4300050: er1:leave_cor:robot_2:pCube18
+    4300052: er1:leave_cor:robot_2:pPipe6
+    4300054: er1:leave_cor:robot_2:pCube15
+    4300056: er1:leave_cor:robot_2:pPipe10
+    4300058: er1:leave_cor:robot_2:pCube12
+    4300060: er1:leave_cor:robot_2:pCube7
+    4300062: er1:leave_cor:robot_2:pPipe1
+    4300064: er1:leave_cor:robot_2:pCube8
+    4300066: er1:leave_cor:robot_2:pSphere2
+    4300068: er1:leave_cor:robot_2:pSphere1
+    4300070: er1:leave_cor:robot_2:pCylinder19
+    4300072: er1:leave_cor:robot_2:pPipe7
+    4300074: er1:leave_cor:robot_2:pCube18
+    4300076: er1:leave_cor:robot_2:pPipe6
+    4300078: er1:leave_cor:robot_2:pCube15
+    4300080: er1:leave_cor:robot_2:pPipe10
+    4300082: er1:leave_cor:robot_2:pCube12
+    4300084: er1:leave_cor:robot_2:pPipe5
+    4300086: er1:leave_cor:robot_2:pCube16
+    4300088: er1:leave_cor:robot_2:pPipe4
+    4300090: er1:leave_cor:robot_2:pCube13
+    4300092: er1:leave_cor:robot_2:pPipe9
+    4300094: er1:leave_cor:robot_2:pCube10
+    4300096: er1:leave_cor:robot_2:pPipe3
+    4300098: er1:leave_cor:robot_2:pCube17
+    4300100: er1:leave_cor:robot_2:pPipe2
+    4300102: er1:leave_cor:robot_2:pCube14
+    4300104: er1:leave_cor:robot_2:pPipe8
+    4300106: er1:leave_cor:robot_2:pCube11
+    4300108: er1:leave_cor:robot_2:pPipe11
+    4300110: er1:leave_cor:robot_2:pCube20
+    4300112: er1:leave_cor:robot_2:pPipe13
+    4300114: er1:leave_cor:robot_2:pCube19
+    4300116: er1:leave_cor:robot_2:pCube7
+    4300118: er1:leave_cor:robot_2:pPipe1
+    4300120: er1:leave_cor:robot_2:pCube8
+    4300122: er1:leave_cor:robot_2:pSphere2
+    4300124: er1:leave_cor:robot_2:pSphere1
+    4300126: er1:leave_cor:robot_2:pCylinder19
+    4300128: er1:leave_cor:robot_2:pCylinder10
+    4300130: er1:leave_cor:robot_2:pCylinder9
+    4300132: er1:leave_cor:robot_2:polySurface3
+    4300134: er1:leave_cor:robot_2:polySurface1
+    4300136: er1:leave_cor:robot_2:polySurface7
+    4300138: er1:leave_cor:robot_2:pCylinder5
+    4300140: er1:leave_cor:robot_2:pCylinder16
+    4300142: er1:leave_cor:robot_2:pCylinder15
+    4300144: er1:leave_cor:robot_2:polySurface4
+    4300146: er1:leave_cor:robot_2:polySurface8
+    4300148: er1:leave_cor:robot_2:pCylinder12
+    4300150: er1:leave_cor:robot_2:polySurface2
+    4300152: er1:leave_cor:robot_2:polySurface16
+    4300154: er1:leave_cor:robot_2:polySurface17
+    9500000: //RootNode
+    13700000: er1:leave_cor:robot_2:polySurface16
+    13700002: er1:leave_cor:robot_2:polySurface17
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Master_Robot_Ctrl
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftLeg_hip_JNT
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightLeg_hip_JNT
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftLeg_knee_JNT
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightLeg_knee_JNT
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftLeg_Foot_JNT
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightLeg_Foot_JNT
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint41
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint42
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:neck_1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:neck_2
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftClavicle_JNT
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightClavicle_JNT
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftShoulder_JNT
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightShoulder_JNT
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftElbow_JNT
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightElbow_JNT
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftWrist_JNT
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightWrist_JNT
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:neck_3
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftThumb_JNT
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint24
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftIndex_JNT
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint18
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint19
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftMid_JNT
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint18 1
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint19 1
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:leftPinky_JNT
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint18 2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint19 2
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightThumb_JNT
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint27
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightIndex_JNT
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint30
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint31
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightMid_JNT
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint34
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint35
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:rightPinky_JNT
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint38
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint39
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: er1:leave_cor:robot_2:joint43
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: robot(Clone)
+      parentName: 
+      position: {x: 0.019902825, y: -0.0000065550976, z: 0.04059128}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Master_Robot_Ctrl
+      parentName: robot(Clone)
+      position: {x: -0.019555269, y: 0.0000065550976, z: -0.045951094}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface16
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface17
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_GRP
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_foot_JNT
+      parentName: er1:leave_cor:robot_2:rightLeg_GRP
+      position: {x: 0.0135025, y: 0.0106286, z: -0.014665499}
+      rotation: {x: 0.67159814, y: -0.22125995, z: 0.67159814, w: -0.22125994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube5
+      parentName: er1:leave_cor:robot_2:rightLeg_foot_JNT
+      position: {x: 0.0073311883, y: -0.00070274866, z: -0.00008633727}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube6
+      parentName: er1:leave_cor:robot_2:rightLeg_foot_JNT
+      position: {x: -0.00045838612, y: 0.00812417, z: -0.00007942373}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_ball_JNT
+      parentName: er1:leave_cor:robot_2:rightLeg_foot_JNT
+      position: {x: 0.010546222, y: -0.0010552797, z: -0.0000773}
+      rotation: {x: 0, y: -0, z: -0.21699701, w: 0.9761723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_toe_JNT
+      parentName: er1:leave_cor:robot_2:rightLeg_ball_JNT
+      position: {x: 0.02007874, y: 0.00044211748, z: -1.7763568e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:toeWiggle_GRP
+      parentName: er1:leave_cor:robot_2:rightLeg_ball_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder17
+      parentName: er1:leave_cor:robot_2:toeWiggle_GRP
+      position: {x: 0.00014583954, y: 0.0002566361, z: -0.000076990735}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface6
+      parentName: er1:leave_cor:robot_2:toeWiggle_GRP
+      position: {x: 0.010325444, y: 0.0002732732, z: -0.0006525525}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:transform_Nodes
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:group1
+      parentName: er1:leave_cor:robot_2:transform_Nodes
+      position: {x: -0, y: 0.21118358, z: -0.000075964104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface14
+      parentName: er1:leave_cor:robot_2:group1
+      position: {x: -0, y: 0, z: -0.00019059383}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:transform3
+      parentName: er1:leave_cor:robot_2:polySurface14
+      position: {x: -0, y: -0.21118358, z: 0.00026655794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:group2
+      parentName: er1:leave_cor:robot_2:transform_Nodes
+      position: {x: -0, y: 0.21118358, z: -0.000075964104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface14 1
+      parentName: er1:leave_cor:robot_2:group2
+      position: {x: -0, y: 0, z: -0.00019059383}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:transform1
+      parentName: er1:leave_cor:robot_2:polySurface14 1
+      position: {x: -0, y: -0.21118358, z: 0.00026655794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:head
+      parentName: er1:leave_cor:robot_2:transform_Nodes
+      position: {x: 0.0000014734268, y: 0.25469154, z: 0.012606843}
+      rotation: {x: 1.110223e-16, y: -1.9699103e-17, z: -1.342846e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:transform4
+      parentName: er1:leave_cor:robot_2:head
+      position: {x: -0.0000014734268, y: -0.25469154, z: -0.012606843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder1
+      parentName: er1:leave_cor:robot_2:transform_Nodes
+      position: {x: 0.00007772133, y: 0.23443024, z: 0.008438635}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:transform5
+      parentName: er1:leave_cor:robot_2:pCylinder1
+      position: {x: -0.00007772133, y: -0.23443024, z: -0.008438635}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface15
+      parentName: er1:leave_cor:robot_2:transform_Nodes
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:transform2
+      parentName: er1:leave_cor:robot_2:polySurface15
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Leg_Grp
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_foot_JNT
+      parentName: Left_Leg_Grp
+      position: {x: -0.013502462, y: 0.010628602, z: -0.01466551}
+      rotation: {x: 0.22125995, y: 0.67159814, z: 0.22125995, w: 0.67159814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_ball_JNT
+      parentName: er1:leave_cor:robot_2:leftLeg_foot_JNT
+      position: {x: -0.010546226, y: 0.0010552842, z: 0.0000773029}
+      rotation: {x: 0, y: -0, z: -0.21699701, w: 0.9761723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_toe_JNT
+      parentName: er1:leave_cor:robot_2:leftLeg_ball_JNT
+      position: {x: -0.020078752, y: -0.00044211818, z: 8.9177114e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:toeWiiggle_GRP
+      parentName: er1:leave_cor:robot_2:leftLeg_ball_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder11
+      parentName: er1:leave_cor:robot_2:toeWiiggle_GRP
+      position: {x: -0.00014584456, y: -0.00025663778, z: 0.00008663898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface5
+      parentName: er1:leave_cor:robot_2:toeWiiggle_GRP
+      position: {x: -0.010325449, y: -0.00027327493, z: 0.0006525115}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube2
+      parentName: er1:leave_cor:robot_2:leftLeg_foot_JNT
+      position: {x: -0.007331197, y: 0.0007027537, z: 0.00009598842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube3
+      parentName: er1:leave_cor:robot_2:leftLeg_foot_JNT
+      position: {x: 0.00045837733, y: -0.008124164, z: 0.00008907487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Grp_Ctrl
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Arm_grp
+      parentName: Robot_Grp_Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Arm_Ctrl
+      parentName: Left_Arm_grp
+      position: {x: -0.021407539, y: 0.21626876, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Elbow_Ctrl
+      parentName: Left_Arm_Ctrl
+      position: {x: -0.03412148, y: -0.00039986108, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Wirst_Ctrl
+      parentName: Left_Elbow_Ctrl
+      position: {x: -0.04878455, y: 0.0007369698, z: -0.0007211288}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Index_Ctrl
+      parentName: Left_Wirst_Ctrl
+      position: {x: -0.011629638, y: 0.00529254, z: 0.0019782155}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Pinky_Ctrl
+      parentName: Left_Wirst_Ctrl
+      position: {x: -0.011629638, y: 0.00529254, z: -0.0028736796}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Ring_Ctrl
+      parentName: Left_Wirst_Ctrl
+      position: {x: -0.011629638, y: 0.00529254, z: -0.00030910652}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Thumb_Ctrl
+      parentName: Left_Wirst_Ctrl
+      position: {x: -0.011629638, y: 0.0044274223, z: 0.0038246347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Foot_Ctrl
+      parentName: Robot_Grp_Ctrl
+      position: {x: -0.013502462, y: 0.010628602, z: -0.01466551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:bank_R
+      parentName: Left_Foot_Ctrl
+      position: {x: 0.006718763, y: -0.010628602, z: 0.013906505}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:bank_L
+      parentName: er1:leave_cor:robot_2:bank_R
+      position: {x: -0.012884754, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:heel_LOC
+      parentName: er1:leave_cor:robot_2:bank_L
+      position: {x: 0.00616599, y: 0.010628602, z: -0.013906505}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_toe_HDL
+      parentName: er1:leave_cor:robot_2:heel_LOC
+      position: {x: 0.0000773029, y: -0.00982336, z: 0.028703216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:toe_LOC
+      parentName: er1:leave_cor:robot_2:heel_LOC
+      position: {x: 0.0000773029, y: -0.00982336, z: 0.028703216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:ball_LOC
+      parentName: er1:leave_cor:robot_2:toe_LOC
+      position: {x: 4.440892e-18, y: 0.004403411, z: -0.019594941}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:ikHandle2
+      parentName: er1:leave_cor:robot_2:ball_LOC
+      position: {x: -0.00007730245, y: 0.0054199486, z: -0.009108275}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_ball_HDL
+      parentName: er1:leave_cor:robot_2:ball_LOC
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Knee_Grp
+      parentName: Robot_Grp_Ctrl
+      position: {x: -0.013342987, y: 0.080420375, z: 0.02893775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Knee_Ctrl
+      parentName: Left_Knee_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Arm_ggrp
+      parentName: Robot_Grp_Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Arm_Ctrl
+      parentName: Right_Arm_ggrp
+      position: {x: 0.021407498, y: 0.21626899, z: 2.6500795e-33}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Elbow_Ctrl
+      parentName: Right_Arm_Ctrl
+      position: {x: 0.0341215, y: -0.0004, z: -1.5090563e-24}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Wrist_Ctrl
+      parentName: Right_Elbow_Ctrl
+      position: {x: 0.048705127, y: 0.000737, z: -0.000721129}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Index_Ctrl
+      parentName: Right_Wrist_Ctrl
+      position: {x: 0.012181913, y: 0.004427306, z: 0.0038246352}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Mid_Ctrl
+      parentName: Right_Wrist_Ctrl
+      position: {x: 0.012181913, y: 0.005292424, z: 0.0019782158}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Pinky_Ctrl
+      parentName: Right_Wrist_Ctrl
+      position: {x: 0.012181913, y: 0.005292424, z: -0.0028736796}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Ring_Ctrl
+      parentName: Right_Wrist_Ctrl
+      position: {x: 0.012181913, y: 0.005292424, z: -0.00030910628}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Foot_Ctrl
+      parentName: Robot_Grp_Ctrl
+      position: {x: 0.0135025, y: 0.0106286, z: -0.014665499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:bankR
+      parentName: Right_Foot_Ctrl
+      position: {x: 0.006480541, y: -0.0106286, z: 0.013935418}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:bankL
+      parentName: er1:leave_cor:robot_2:bankR
+      position: {x: -0.013339984, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:heel_LOC 1
+      parentName: er1:leave_cor:robot_2:bankL
+      position: {x: 0.006859443, y: 0.0106286, z: -0.013935418}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_toe_HDL
+      parentName: er1:leave_cor:robot_2:heel_LOC 1
+      position: {x: -0.0000773, y: -0.009823358, z: 0.0287032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:toe_LOC 1
+      parentName: er1:leave_cor:robot_2:heel_LOC 1
+      position: {x: -0.0000773, y: -0.009823358, z: 0.0287032}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:ball_LOC 1
+      parentName: er1:leave_cor:robot_2:toe_LOC 1
+      position: {x: -0, y: 0.0044034077, z: -0.01959493}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:ikHandle3
+      parentName: er1:leave_cor:robot_2:ball_LOC 1
+      position: {x: 0.0000773, y: 0.0054199495, z: -0.00910827}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_ball_HDL
+      parentName: er1:leave_cor:robot_2:ball_LOC 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Knee_Grp
+      parentName: Robot_Grp_Ctrl
+      position: {x: 0.013223269, y: 0.080420375, z: 0.02893775}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Knee_Ctrl
+      parentName: Right_Knee_Grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Root_Ctrl
+      parentName: Robot_Grp_Ctrl
+      position: {x: 3.5527136e-17, y: 0.14379482, z: -0.013878349}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Spine_1_Ctrl
+      parentName: Robot_Root_Ctrl
+      position: {x: -4.2439242e-17, y: 0.02210483, z: 0.0009941931}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Spine_2_Ctrl
+      parentName: Robot_Spine_1_Ctrl
+      position: {x: -1.2572477e-17, y: 0.027502079, z: 0.00793993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Chest_Ctrl
+      parentName: Robot_Spine_2_Ctrl
+      position: {x: 1.7210145e-18, y: 0.023654666, z: 0.010621336}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Shoulder_Ctrl
+      parentName: Robot_Chest_Ctrl
+      position: {x: -0.013543606, y: 0.016439302, z: -0.0056771105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Shoulder_Ctrl
+      parentName: Robot_Chest_Ctrl
+      position: {x: 0.013543599, y: 0.016451968, z: -0.0056771105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Neck_Mid_Ctrl
+      parentName: Robot_Chest_Ctrl
+      position: {x: -0.005510459, y: 0.007027031, z: 0.004006982}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Neck_High_Ctrl
+      parentName: Robot_Neck_Mid_Ctrl
+      position: {x: -0, y: 0.009071996, z: 0.0007720848}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Head_Ctrl
+      parentName: Robot_Neck_High_Ctrl
+      position: {x: -0, y: 0.009071996, z: -0.0010616166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Robot_Torso_Grp
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0, z: 0.0053598117}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Text_BAQStudio_1
+      parentName: Master_Robot_Ctrl
+      position: {x: 0.019555273, y: -0.0000065553186, z: 0.045951094}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 0.20738204, y: 0.20738204, z: 0.20738204}
+    - name: Char_A_1
+      parentName: Text_BAQStudio_1
+      position: {x: 0.066, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve4
+      parentName: Char_A_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve5
+      parentName: Char_A_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_B_1
+      parentName: Text_BAQStudio_1
+      position: {x: 0.09199999, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve1
+      parentName: Char_B_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve2
+      parentName: Char_B_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve3
+      parentName: Char_B_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_d_1
+      parentName: Text_BAQStudio_1
+      position: {x: -0.043, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve11
+      parentName: Char_d_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve12
+      parentName: Char_d_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_i_1
+      parentName: Text_BAQStudio_1
+      position: {x: -0.063, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve13
+      parentName: Char_i_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve14
+      parentName: Char_i_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_o_1
+      parentName: Text_BAQStudio_1
+      position: {x: -0.074, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve15
+      parentName: Char_o_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve16
+      parentName: Char_o_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_Q_1
+      parentName: Text_BAQStudio_1
+      position: {x: 0.037999995, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve6
+      parentName: Char_Q_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve7
+      parentName: Char_Q_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_S_1
+      parentName: Text_BAQStudio_1
+      position: {x: 0.01, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve8
+      parentName: Char_S_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_t_1
+      parentName: Text_BAQStudio_1
+      position: {x: -0.011999998, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve9
+      parentName: Char_t_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Char_u_1
+      parentName: Text_BAQStudio_1
+      position: {x: -0.023000002, y: -0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: curve10
+      parentName: Char_u_1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint45
+      parentName: Master_Robot_Ctrl
+      position: {x: -0.00034755617, y: 0.13727494, z: -0.009129134}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_hip_JNT
+      parentName: er1:leave_cor:robot_2:joint45
+      position: {x: -0.013502462, y: 0.000041114017, z: -0.00017655498}
+      rotation: {x: 0.5009134, y: -0.49908474, z: 0.4990849, w: 0.5009136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_knee_JNT
+      parentName: er1:leave_cor:robot_2:leftLeg_hip_JNT
+      position: {x: 7.888609e-33, y: -1.8854182e-17, z: 0.056607794}
+      rotation: {x: 0.000000047595403, y: -0.00000039096582, z: 2.4692129e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftLeg_Foot_JNT
+      parentName: er1:leave_cor:robot_2:leftLeg_knee_JNT
+      position: {x: 8.412748e-34, y: -7.7804054e-18, z: 0.07007966}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder10
+      parentName: er1:leave_cor:robot_2:leftLeg_Foot_JNT
+      position: {x: 0.000083196894, y: 0.0004698577, z: 0.0008177789}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder9
+      parentName: er1:leave_cor:robot_2:leftLeg_knee_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface3
+      parentName: er1:leave_cor:robot_2:leftLeg_knee_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder5
+      parentName: er1:leave_cor:robot_2:leftLeg_hip_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface1
+      parentName: er1:leave_cor:robot_2:leftLeg_hip_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface7
+      parentName: er1:leave_cor:robot_2:leftLeg_hip_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_hip_JNT
+      parentName: er1:leave_cor:robot_2:joint45
+      position: {x: 0.0135025, y: 0.000041054715, z: -0.00017655377}
+      rotation: {x: -0.50159854, y: 0.49839658, z: 0.4983964, w: 0.50159824}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder12
+      parentName: er1:leave_cor:robot_2:rightLeg_hip_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface2
+      parentName: er1:leave_cor:robot_2:rightLeg_hip_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface8
+      parentName: er1:leave_cor:robot_2:rightLeg_hip_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_knee_JNT
+      parentName: er1:leave_cor:robot_2:rightLeg_hip_JNT
+      position: {x: -0, y: 2.4424906e-17, z: -0.056607697}
+      rotation: {x: 0.00000005429205, y: -0.0000004541412, z: 2.8209697e-11, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder15
+      parentName: er1:leave_cor:robot_2:rightLeg_knee_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:polySurface4
+      parentName: er1:leave_cor:robot_2:rightLeg_knee_JNT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightLeg_Foot_JNT
+      parentName: er1:leave_cor:robot_2:rightLeg_knee_JNT
+      position: {x: -0.000000008835439, y: 3.1086245e-17, z: -0.0700797}
+      rotation: {x: -0.47353888, y: 0.5251295, z: -0.52512944, w: 0.47353882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder16
+      parentName: er1:leave_cor:robot_2:rightLeg_Foot_JNT
+      position: {x: 0.0032576078, y: -0.0023736486, z: -0.0061455164}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint41
+      parentName: er1:leave_cor:robot_2:joint45
+      position: {x: -9.860761e-34, y: 0.017783869, z: 0.00033467537}
+      rotation: {x: -0.46251842, y: 0.53486145, z: -0.46251842, w: 0.53486145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint42
+      parentName: er1:leave_cor:robot_2:joint41
+      position: {x: -0.024961941, y: 0.0005292036, z: 8.326781e-18}
+      rotation: {x: 1.110223e-16, y: 5.551115e-17, z: 0.13955285, w: 0.99021465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint43
+      parentName: er1:leave_cor:robot_2:joint42
+      position: {x: -0.020273222, y: -3.5527136e-17, z: 8.355511e-18}
+      rotation: {x: -1.1628038e-16, y: -4.343172e-17, z: -0.033818245, w: 0.9994281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint44
+      parentName: er1:leave_cor:robot_2:joint43
+      position: {x: -0.02114301, y: -5.662137e-17, z: 8.8945275e-18}
+      rotation: {x: 0.37174806, y: -0.601501, z: 0.37174806, w: 0.601501}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:neck_1
+      parentName: er1:leave_cor:robot_2:joint44
+      position: {x: 3.5770712e-19, y: -0.0027854566, z: 0.0015972863}
+      rotation: {x: -0.46404532, y: 0.53353727, z: -0.46404532, w: 0.53353727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:neck_2
+      parentName: er1:leave_cor:robot_2:neck_1
+      position: {x: -0.009745181, y: 1.110223e-16, z: 3.5047142e-18}
+      rotation: {x: 5.551115e-17, y: 2.220446e-16, z: -0.027093759, w: 0.9996329}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:neck_3
+      parentName: er1:leave_cor:robot_2:neck_2
+      position: {x: -0.009104792, y: -1.110223e-18, z: 3.1041491e-18}
+      rotation: {x: 0.9949344, y: -0.10052654, z: -1.04951684e-16, w: 5.0939953e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:neck_4
+      parentName: er1:leave_cor:robot_2:neck_3
+      position: {x: -0.0091339005, y: -1.3322676e-17, z: -2.4034971e-18}
+      rotation: {x: -1.6653345e-16, y: -1.3877788e-16, z: 0.12789686, w: 0.9917875}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:neck_5
+      parentName: er1:leave_cor:robot_2:neck_4
+      position: {x: -0.01191818, y: -1.2212453e-17, z: -4.6102653e-20}
+      rotation: {x: 0.97928876, y: -0.20246868, z: -2.3222888e-16, w: -1.1054086e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:head_joint
+      parentName: er1:leave_cor:robot_2:neck_5
+      position: {x: -0.01110543, y: -1.9428903e-18, z: -2.691322e-19}
+      rotation: {x: 0, y: 0, z: 0.21106704, w: 0.9774716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:head_dummy
+      parentName: er1:leave_cor:robot_2:head_joint
+      position: {x: -0.012171436, y: -1.110223e-18, z: -1.2144796e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightClavicle_JNT
+      parentName: er1:leave_cor:robot_2:joint44
+      position: {x: 0.013543599, y: 0.0035021752, z: -0.006735658}
+      rotation: {x: 0.95251715, y: -0.3044849, z: 0.000000037252896, w: -0.000000014901158}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightShoulder_JNT
+      parentName: er1:leave_cor:robot_2:rightClavicle_JNT
+      position: {x: 0.008645459, y: -0.0026283765, z: -5.2915554e-18}
+      rotation: {x: 0.000000029148762, y: -0.00000005141898, z: -0.3415231, w: 0.9398734}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightElbow_JNT
+      parentName: er1:leave_cor:robot_2:rightShoulder_JNT
+      position: {x: 0.034123845, y: 0.00000013866234, z: -2.9189793e-15}
+      rotation: {x: -0.00014200753, y: 0.0016842284, z: 0.0061211274, w: 0.99997985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder19 1
+      parentName: er1:leave_cor:robot_2:rightElbow_JNT
+      position: {x: 0.024963183, y: 0.0002956797, z: 0.0014951724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pSphere1 1
+      parentName: er1:leave_cor:robot_2:rightElbow_JNT
+      position: {x: 0.00011705246, y: -0.0000039075594, z: 0.0014534052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightWrist_JNT
+      parentName: er1:leave_cor:robot_2:rightElbow_JNT
+      position: {x: 0.048705127, y: -0.00073699997, z: 0.000721129}
+      rotation: {x: -0.000000027192058, y: -0.018509, z: 5.0338406e-10, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube7 1
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.005121871, y: 0.0002087813, z: -0.0001820589}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube8 1
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.011152691, y: -0.00057944003, z: -0.0003222131}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe1 1
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.00908114, y: -0.0004964513, z: -0.0001738021}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pSphere2 1
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.0005572072, y: 0.0005779963, z: 0.00020372389}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightIndex_JNT
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.0128642935, y: -0.000851, z: -0.0027915505}
+      rotation: {x: 0, y: 0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint30
+      parentName: er1:leave_cor:robot_2:rightIndex_JNT
+      position: {x: 0.0040599997, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint31
+      parentName: er1:leave_cor:robot_2:joint30
+      position: {x: 0.003862, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint32
+      parentName: er1:leave_cor:robot_2:joint31
+      position: {x: 0.003912, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube17 1
+      parentName: er1:leave_cor:robot_2:joint31
+      position: {x: 0.000046201538, y: 0.00000030827766, z: -0.0000000018662993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe3 1
+      parentName: er1:leave_cor:robot_2:joint31
+      position: {x: 0.000046201538, y: 0.00000030827766, z: -0.0000000018662993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube14 1
+      parentName: er1:leave_cor:robot_2:joint30
+      position: {x: 0.00004619295, y: 0.00000030826988, z: -0.0000000018662993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe2 1
+      parentName: er1:leave_cor:robot_2:joint30
+      position: {x: 0.0000715562, y: -0.000048817376, z: -0.000048062757}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube11 1
+      parentName: er1:leave_cor:robot_2:rightIndex_JNT
+      position: {x: 0.000046132634, y: 0.0000003082617, z: -0.0000000018662993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe8 1
+      parentName: er1:leave_cor:robot_2:rightIndex_JNT
+      position: {x: 0.000046132634, y: 0.0000003082617, z: -0.0000000018662993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightMid_JNT
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.012964075, y: -0.000851, z: -0.00009743775}
+      rotation: {x: 0, y: 0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint34
+      parentName: er1:leave_cor:robot_2:rightMid_JNT
+      position: {x: 0.0040599997, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint35
+      parentName: er1:leave_cor:robot_2:joint34
+      position: {x: 0.003862, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint36
+      parentName: er1:leave_cor:robot_2:joint35
+      position: {x: 0.003912, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube16 1
+      parentName: er1:leave_cor:robot_2:joint35
+      position: {x: 0.000046201538, y: 0.00000030827766, z: -0.0000000047365214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe5 1
+      parentName: er1:leave_cor:robot_2:joint35
+      position: {x: 0.000046201538, y: 0.00000030827766, z: -0.0000000047365214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube13 1
+      parentName: er1:leave_cor:robot_2:joint34
+      position: {x: 0.00004619295, y: 0.00000030826988, z: -0.0000000047365214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe4 1
+      parentName: er1:leave_cor:robot_2:joint34
+      position: {x: 0.00004619295, y: 0.00000030826988, z: -0.0000000047365214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube10 1
+      parentName: er1:leave_cor:robot_2:rightMid_JNT
+      position: {x: 0.000046132634, y: 0.0000003082617, z: -0.0000000047365214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe9 1
+      parentName: er1:leave_cor:robot_2:rightMid_JNT
+      position: {x: 0.000046132634, y: 0.0000003082617, z: -0.0000000047365214}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightPinky_JNT
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.013057093, y: -0.000851, z: 0.0024140202}
+      rotation: {x: 0, y: 0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint38
+      parentName: er1:leave_cor:robot_2:rightPinky_JNT
+      position: {x: 0.0040599997, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint39
+      parentName: er1:leave_cor:robot_2:joint38
+      position: {x: 0.003862, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint40
+      parentName: er1:leave_cor:robot_2:joint39
+      position: {x: 0.003912, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube18 1
+      parentName: er1:leave_cor:robot_2:joint39
+      position: {x: 0.000046201538, y: 0.00000030827766, z: -0.000000004361305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe7 1
+      parentName: er1:leave_cor:robot_2:joint39
+      position: {x: 0.000046201538, y: 0.00000030827766, z: -0.000000004361305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube15 1
+      parentName: er1:leave_cor:robot_2:joint38
+      position: {x: 0.00004619295, y: 0.00000030826988, z: -0.000000004361305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe6 1
+      parentName: er1:leave_cor:robot_2:joint38
+      position: {x: 0.00004619295, y: 0.00000030826988, z: -0.000000004361305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube12 1
+      parentName: er1:leave_cor:robot_2:rightPinky_JNT
+      position: {x: 0.000046132634, y: 0.0000003082617, z: -0.000000004361305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe10 1
+      parentName: er1:leave_cor:robot_2:rightPinky_JNT
+      position: {x: 0.000046132634, y: 0.0000003082617, z: -0.000000004361305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightThumb_JNT
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.010788643, y: -0.000519, z: -0.004067592}
+      rotation: {x: -0.007655079, y: 0.45402563, z: -0.011512202, w: 0.8908814}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint27
+      parentName: er1:leave_cor:robot_2:rightThumb_JNT
+      position: {x: 0.004635396, y: 0, z: -0.000027675516}
+      rotation: {x: 0, y: 0.0147617655, z: -0, w: 0.99989104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint28
+      parentName: er1:leave_cor:robot_2:joint27
+      position: {x: 0.0037674478, y: -3.5527136e-17, z: 0.000027944172}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube20 1
+      parentName: er1:leave_cor:robot_2:joint27
+      position: {x: 0.000018820516, y: 0.00000015985137, z: 0.00004252324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe11 1
+      parentName: er1:leave_cor:robot_2:joint27
+      position: {x: 0.000018820516, y: 0.00000015985137, z: 0.00004252324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube19 1
+      parentName: er1:leave_cor:robot_2:rightThumb_JNT
+      position: {x: 0.00001994183, y: 0.00000015982728, z: 0.000041688647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe13 1
+      parentName: er1:leave_cor:robot_2:rightThumb_JNT
+      position: {x: 0.00001994183, y: 0.00000015982728, z: 0.000041688647}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:rightWrist_end_JNT
+      parentName: er1:leave_cor:robot_2:rightWrist_JNT
+      position: {x: 0.009834538, y: 3.5527136e-17, z: -0.00000001158465}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftClavicle_JNT
+      parentName: er1:leave_cor:robot_2:joint44
+      position: {x: -0.013543606, y: 0.0035019922, z: -0.006735658}
+      rotation: {x: -0.00000011920926, y: -0.00000005960463, z: 0.3044838, w: 0.95251757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftShoulder_JNT
+      parentName: er1:leave_cor:robot_2:leftClavicle_JNT
+      position: {x: -0.008645513, y: 0.0026283725, z: 7.865419e-18}
+      rotation: {x: 0.0000000044011292, y: 0.0000000062846426, z: -0.3415204, w: 0.9398744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftElbow_JNT
+      parentName: er1:leave_cor:robot_2:leftShoulder_JNT
+      position: {x: -0.03412382, y: 0, z: 6.459845e-18}
+      rotation: {x: -0.00014161417, y: 0.0016796052, z: 0.006104765, w: 0.99998}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftWrist_JNT
+      parentName: er1:leave_cor:robot_2:leftElbow_JNT
+      position: {x: -0.04878455, y: 0.0007369698, z: -0.0007211288}
+      rotation: {x: 0, y: -0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftIndex_JNT
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.012864365, y: 0.00085080793, z: 0.002791555}
+      rotation: {x: 0, y: 0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint18
+      parentName: er1:leave_cor:robot_2:leftIndex_JNT
+      position: {x: -0.0040600603, y: 0, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint19
+      parentName: er1:leave_cor:robot_2:joint18
+      position: {x: -0.0038620085, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint20
+      parentName: er1:leave_cor:robot_2:joint19
+      position: {x: -0.0039115213, y: 0, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube17
+      parentName: er1:leave_cor:robot_2:joint19
+      position: {x: 0.00003338069, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe3
+      parentName: er1:leave_cor:robot_2:joint19
+      position: {x: 0.00003338069, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube14
+      parentName: er1:leave_cor:robot_2:joint18
+      position: {x: 0.00003338069, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe2
+      parentName: er1:leave_cor:robot_2:joint18
+      position: {x: 0.000008017437, y: 0.00004912565, z: 0.00004806089}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube11
+      parentName: er1:leave_cor:robot_2:leftIndex_JNT
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe8
+      parentName: er1:leave_cor:robot_2:leftIndex_JNT
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftMid_JNT
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.012964147, y: 0.00085080793, z: 0.0000974449}
+      rotation: {x: 0, y: 0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint18 1
+      parentName: er1:leave_cor:robot_2:leftMid_JNT
+      position: {x: -0.0040600603, y: 0, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint19 1
+      parentName: er1:leave_cor:robot_2:joint18 1
+      position: {x: -0.0038620085, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint20 1
+      parentName: er1:leave_cor:robot_2:joint19 1
+      position: {x: -0.0039115213, y: 0, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube16
+      parentName: er1:leave_cor:robot_2:joint19 1
+      position: {x: 0.00003338069, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe5
+      parentName: er1:leave_cor:robot_2:joint19 1
+      position: {x: 0.00003338069, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube13
+      parentName: er1:leave_cor:robot_2:joint18 1
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe4
+      parentName: er1:leave_cor:robot_2:joint18 1
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube10
+      parentName: er1:leave_cor:robot_2:leftMid_JNT
+      position: {x: 0.00003338069, y: 0, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe9
+      parentName: er1:leave_cor:robot_2:leftMid_JNT
+      position: {x: 0.00003338069, y: 0, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftPinky_JNT
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.013057164, y: 0.00085080793, z: -0.0024140135}
+      rotation: {x: 0, y: 0.018509, z: -0, w: 0.9998287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint18 2
+      parentName: er1:leave_cor:robot_2:leftPinky_JNT
+      position: {x: -0.0040600603, y: 0, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint19 2
+      parentName: er1:leave_cor:robot_2:joint18 2
+      position: {x: -0.0038620085, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint20 2
+      parentName: er1:leave_cor:robot_2:joint19 2
+      position: {x: -0.0039115213, y: 0, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube18
+      parentName: er1:leave_cor:robot_2:joint19 2
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe7
+      parentName: er1:leave_cor:robot_2:joint19 2
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube15
+      parentName: er1:leave_cor:robot_2:joint18 2
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe6
+      parentName: er1:leave_cor:robot_2:joint18 2
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube12
+      parentName: er1:leave_cor:robot_2:leftPinky_JNT
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe10
+      parentName: er1:leave_cor:robot_2:leftPinky_JNT
+      position: {x: 0.00003338069, y: 0, z: 1.110223e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftThumb_JNT
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.010788795, y: 0.00051895634, z: 0.0040675993}
+      rotation: {x: -0.007651286, y: 0.45405167, z: -0.011507294, w: 0.8908682}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint24
+      parentName: er1:leave_cor:robot_2:leftThumb_JNT
+      position: {x: -0.004635521, y: 0, z: 0.000027415015}
+      rotation: {x: 0, y: 0.0147617655, z: -0, w: 0.99989104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:joint25
+      parentName: er1:leave_cor:robot_2:joint24
+      position: {x: -0.0037674063, y: 0, z: -0.000027790122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube20
+      parentName: er1:leave_cor:robot_2:joint24
+      position: {x: 0.000013507035, y: 0, z: 0.0000305259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe11
+      parentName: er1:leave_cor:robot_2:joint24
+      position: {x: 0.000013507035, y: 0, z: 0.0000305259}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube19
+      parentName: er1:leave_cor:robot_2:leftThumb_JNT
+      position: {x: 0.0000144022815, y: 7.105427e-17, z: 0.000030113863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe13
+      parentName: er1:leave_cor:robot_2:leftThumb_JNT
+      position: {x: 0.0000144022815, y: 7.105427e-17, z: 0.000030113863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:leftWrist_end_JNT
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.009834332, y: 0, z: -9.714451e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube7
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.0050424845, y: -0.00020866511, z: 0.00017911842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCube8
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.011073304, y: 0.0005795562, z: 0.0003192726}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pPipe1
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.009001753, y: 0.00049656746, z: 0.00017086163}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pSphere2
+      parentName: er1:leave_cor:robot_2:leftWrist_JNT
+      position: {x: -0.00047781985, y: -0.0005778801, z: -0.00020666435}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pCylinder19
+      parentName: er1:leave_cor:robot_2:leftElbow_JNT
+      position: {x: -0.024963165, y: -0.00029559358, z: -0.0014951724}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: er1:leave_cor:robot_2:pSphere1
+      parentName: er1:leave_cor:robot_2:leftElbow_JNT
+      position: {x: -0.00011703206, y: 0.0000039936535, z: -0.0014534052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
