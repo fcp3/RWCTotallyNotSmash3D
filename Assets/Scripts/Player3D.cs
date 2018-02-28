@@ -9,6 +9,31 @@ public class Player3D : MonoBehaviour {
         get { return playerNum; }
     }
 
+    public bool Attacking
+    {
+        get { return (attack1 || attack2); }
+    }
+    
+    public bool FacingRight
+    {
+        get { return facingRight; }
+    }
+
+    public int Damage
+    {
+        get {
+            if (attack1)
+            {
+                return attackDamage1;
+            }
+            else if(attack2)
+            {
+                return attackDamage2;
+            }
+            return 0;
+        }
+    }
+
     [SerializeField]
     int speed;
 
@@ -27,6 +52,18 @@ public class Player3D : MonoBehaviour {
     private BulletController currentBullet;
 
     protected bool hasBullet;
+    protected bool hit;
+    protected bool recovered;
+    protected bool recovering;
+    protected bool rotated = false;
+    protected int attackDamage1 = 10, attackDamage2 = 10;
+
+    protected int recoveryTime = 100;
+    protected int recoveryTimer = 0;
+
+    protected int attackTime1 = 100;
+    protected int attackTime2 = 500;
+    protected int attackTimer = 0;
 
     //added variables for movement, acceleration for ramped up speed
     int horizMove = 0;
@@ -39,7 +76,7 @@ public class Player3D : MonoBehaviour {
     float frictionModifier = 5f; //This is for if the floor is ice
     protected float speedModifier = 1000f; //This is to control the model's speed within a reasonable speed
 
-    private bool attack;
+    private bool attack1;
 
     private bool attack2;
 
@@ -53,6 +90,7 @@ public class Player3D : MonoBehaviour {
     void Start () {
         facingRight = true;
         isGrounded = true;
+        hit = false;
         rBody = GetComponent<Rigidbody>();
 
         health = maxHealth;
@@ -81,6 +119,25 @@ public class Player3D : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if(recovered)
+        {
+            if(Input.GetKeyDown(jumpMove))
+            {
+                hit = false;
+            }
+        }
+        else
+        {
+            recoveryTimer++;
+            if(recoveryTimer >= recoveryTime)
+            {
+                recovered = true;
+                recoveryTimer = 0;
+            }
+        }
+
+
+        
         HandleInput();
 	}
 
@@ -119,7 +176,7 @@ public class Player3D : MonoBehaviour {
 
     private void HandleAttacks()
     {
-        if (attack)
+        if (attack1)
         {
             if (hasBullet)
             {
@@ -127,6 +184,24 @@ public class Player3D : MonoBehaviour {
                 currentBullet.FacingRight = this.facingRight;
                 currentBullet.Shoot(this.transform);
                 currentBullet = null;
+                attack1 = false;
+            }
+            else
+            {
+                if (!rotated)
+                {
+                    this.transform.Rotate(0f, -90f, 0f);
+                    rotated = true;
+                }
+            }
+
+            attackTimer++;
+            if(attackTimer >= attackTime1)
+            {
+                attack1 = false;
+                attackTimer = 0;
+                this.transform.Rotate(0f, 90f, 0f);
+                rotated = false;
             }
             /*
             else
@@ -151,7 +226,8 @@ public class Player3D : MonoBehaviour {
 
         if (Input.GetKeyDown(attk1))
         {
-            attack = true;
+            attack1 = true;
+            rBody.velocity = new Vector3(0, 0, 0);
         }
 
         if (Input.GetKeyDown(attk2))
@@ -176,26 +252,30 @@ public class Player3D : MonoBehaviour {
             }
         }
 
-        rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
-
+        if (hit || Attacking)
+        {
+            rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y);
+        }
+        else
+        {
+            rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+        }
         //myAnimator.SetFloat("speed", Mathf.Abs(horizontal));
     }
 
     private void ResetValues()
     {
-        attack = false;
-
-        attack2 = false;
-
         jump = false;
     }
 
     protected void damage(int d, Vector2 k)
     {
         float modifier = 100f;
-        rBody.AddForce(k * modifier);
+        rBody.AddForce(k * (modifier * d));
         health -= d;
         Debug.Log("Hit the player " + health);
+        hit = true;
+        recovered = false;
     }
 
     private void OnCollisionEnter(Collision col)
@@ -203,7 +283,38 @@ public class Player3D : MonoBehaviour {
         if(col.gameObject.tag == "ground")
         {
             isGrounded = true;
+            recovered = true;
+            hit = false;
             frictionModifier = 5f;
+        }
+
+        if(col.gameObject.tag == "player")
+        {
+            GameObject p = col.gameObject;
+            Physics.IgnoreCollision(p.GetComponent<CapsuleCollider>(), GetComponent<CapsuleCollider>());            
+        }
+
+        if(col.gameObject.tag == "rightArm")
+        {
+            //damage me here
+            Player3D p = col.gameObject.GetComponentInParent<Player3D>();
+            if (p.Attacking)
+            {
+                if (recovered)
+                {
+                    int x = 0, y = 0;
+
+                    if (p.FacingRight) { x = 1; }
+                    else { x = -1; }
+
+                    if(p.transform.position.y > this.transform.position.y) { y = -1; }
+                    else { y = 1; }
+
+                    int d = p.Damage;
+                    
+                    damage(d, new Vector2(x,y));
+                }
+            }
         }
 
         if (col.gameObject.tag == "bullet")
@@ -222,8 +333,8 @@ public class Player3D : MonoBehaviour {
                 else
                 {
                     Vector2 knock = new Vector2(0, 0);
-                    if (bc.FacingRight) { knock = new Vector2(5, 1); }
-                    else { knock = new Vector2(-5, 1); }
+                    if (bc.FacingRight) { knock = new Vector2(1, 1); }
+                    else { knock = new Vector2(-1, 1); }
                     damage(bc.Damage, knock);
                 }
             }

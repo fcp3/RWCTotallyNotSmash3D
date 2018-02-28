@@ -95,7 +95,7 @@ public class BulletController : MonoBehaviour {
         {
             playerDirection.x = -.5f;
         }
-        float spawnDistance = 1;
+        float spawnDistance = 3;
 
         Vector3 spawnPos = playerPos + (playerDirection * spawnDistance);
 
