@@ -19,7 +19,7 @@ public class FightCamera : MonoBehaviour
 
     [SerializeField]
     int MAX_SIZE;
-
+    
     [SerializeField]
     int MIN_SIZE;
 
@@ -39,6 +39,11 @@ public class FightCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         Vector3 pos1 = p1.transform.position;
         Vector3 pos2 = p2.transform.position;
 
@@ -51,17 +56,12 @@ public class FightCamera : MonoBehaviour
 
         currentSize += (destSize - currentSize) * delta;
 
-        if (currentSize > MAX_SIZE) { currentSize = MAX_SIZE; Debug.Log("Am I here"); }
+        if (currentSize > MAX_SIZE) { currentSize = MAX_SIZE; }
         if (currentSize < MIN_SIZE) { currentSize = MIN_SIZE; }
 
         //Camera.main.orthographicSize = currentSize;
         Camera.main.fieldOfView = currentSize;
         currentPosition.z = -25f;
         c.transform.position = currentPosition;
-    }
-
-    private void FixedUpdate()
-    {
-
     }
 }

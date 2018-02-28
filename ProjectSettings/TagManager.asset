@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ground
-  - bullet
-  - player
-  - player1health
-  - player2health
+  tags: []
   layers:
   - Default
   - TransparentFX
