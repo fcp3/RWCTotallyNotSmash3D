@@ -22,6 +22,8 @@ public class Player3D : MonoBehaviour {
     protected int maxHealth;
     protected int health;
 
+    protected HealthBar healthBar;
+
     Rigidbody rBody;
 
     private BulletController currentBullet;
@@ -56,9 +58,15 @@ public class Player3D : MonoBehaviour {
         rBody = GetComponent<Rigidbody>();
 
         health = maxHealth;
+        
 
         if (playerNum == 1)
         {
+            GameObject healthObject = GameObject.FindGameObjectWithTag("player1health");
+            healthBar = healthObject.GetComponent<HealthBar>();
+            healthBar.MaxHealth = maxHealth;
+            healthBar.CurrentHealth = health;
+
             left = KeyCode.A;
             right = KeyCode.D;
             jumpMove = KeyCode.Space;
@@ -69,6 +77,11 @@ public class Player3D : MonoBehaviour {
         }
         else if (playerNum == 2)
         {
+            GameObject healthObject = GameObject.FindGameObjectWithTag("player2health");
+            healthBar = healthObject.GetComponent<HealthBar>();
+            healthBar.MaxHealth = maxHealth;
+            healthBar.CurrentHealth = health;
+
             left = KeyCode.LeftArrow;
             right = KeyCode.RightArrow;
             jumpMove = KeyCode.UpArrow;
@@ -82,6 +95,7 @@ public class Player3D : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         HandleInput();
+        healthBar.CurrentHealth = health;
 	}
 
     private void FixedUpdate()

@@ -20,8 +20,8 @@ public class GlobalController : MonoBehaviour {
 
         if (!loadLevel)
         {
-            SceneManager.LoadScene("2dfighter");
-            loadLevel = true;
+            //SceneManager.LoadScene("2dfighter");
+            //loadLevel = true;
         }
     }
 	
@@ -44,12 +44,8 @@ public class GlobalController : MonoBehaviour {
 
 		if(Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("dev");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
 
-        if(Input.GetKeyDown(KeyCode.LeftAlt))
-        {
-            SceneManager.LoadScene("2dfighter");
-        }
 	}
 }
