@@ -284,7 +284,7 @@ public class Player3D : MonoBehaviour {
 
     protected void damage(int d, Vector2 k)
     {
-        float modifier = 100f;
+        float modifier = 25f;
         rBody.AddForce(k * (modifier * d));
         health -= d;
         Debug.Log("Hit the player " + health);
@@ -304,18 +304,39 @@ public class Player3D : MonoBehaviour {
 
         if(col.gameObject.tag == "player")
         {
-            GameObject p = col.gameObject;
-            Physics.IgnoreCollision(p.GetComponent<CapsuleCollider>(), GetComponent<CapsuleCollider>());            
-        }
-
-        if(col.gameObject.tag == "rightArm")
-        {
-            //damage me here
+            GameObject p1 = col.gameObject;
+            Physics.IgnoreCollision(p1.GetComponent<CapsuleCollider>(), GetComponent<CapsuleCollider>());
             Player3D p = col.gameObject.GetComponentInParent<Player3D>();
             if (p.Attacking)
             {
                 if (recovered)
                 {
+                    int x = 0, y = 0;
+
+                    if (p.FacingRight) { x = 1; }
+                    else { x = -1; }
+
+                    if (p.transform.position.y > this.transform.position.y) { y = -1; }
+                    else { y = 1; }
+
+                    int d = p.Damage;
+
+                    damage(d, new Vector2(x, y));
+                }
+            }
+        }
+
+        if(col.gameObject.tag == "rightArm")
+        {
+            //damage me here
+            Debug.Log("right arm colliding");
+            Player3D p = col.gameObject.GetComponentInParent<Player3D>();
+            if (p.Attacking)
+            {
+                Debug.Log("rightArm player is attacking");
+                if (recovered)
+                {
+                    Debug.Log("player is recovered");
                     int x = 0, y = 0;
 
                     if (p.FacingRight) { x = 1; }

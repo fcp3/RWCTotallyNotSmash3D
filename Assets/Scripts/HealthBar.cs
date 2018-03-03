@@ -30,10 +30,10 @@ public class HealthBar : MonoBehaviour {
         set
         {
             
-            Debug.Log("Max Health: " + maxHealth);
+            //Debug.Log("Max Health: " + maxHealth);
             currentHealth = (int) value;
-            Debug.Log("Current Health: " + currentHealth);
-            Debug.Log((float)currentHealth / maxHealth);
+           // Debug.Log("Current Health: " + currentHealth);
+           // Debug.Log((float)currentHealth / maxHealth);
             healthImage.fillAmount = (float)currentHealth / maxHealth;
         }
     }
