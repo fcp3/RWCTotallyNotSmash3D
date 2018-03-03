@@ -36,6 +36,10 @@ public class HealthBar : MonoBehaviour {
            // Debug.Log((float)currentHealth / maxHealth);
             healthImage.fillAmount = (float)currentHealth / maxHealth;
         }
+        get
+        {
+            return currentHealth;
+        }
     }
 
     // Use this for initialization
