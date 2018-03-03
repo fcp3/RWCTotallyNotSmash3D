@@ -51,22 +51,25 @@ public class Player3D : MonoBehaviour {
 
     Rigidbody rBody;
 
+    Animator anim;
+
     private BulletController currentBullet;
 
     protected bool hasBullet;
     protected bool hit;
     protected bool recovered;
     protected bool recovering;
-    protected bool rotated = false;
+    protected bool recentAttack;
+
     protected int attackDamage1 = 10, attackDamage2 = 10;
 
     protected int recoveryTime = 100;
     protected int recoveryTimer = 0;
 
-    protected int attackTime1 = 100;
+    /*protected int attackTime1 = 100;
     protected int attackTime2 = 500;
     protected int attackTimer = 0;
-
+*/
     //added variables for movement, acceleration for ramped up speed
     int horizMove = 0;
     protected int accelerator = 50;
@@ -88,13 +91,15 @@ public class Player3D : MonoBehaviour {
 
     private bool jump;
 
+
     // Use this for initialization
     void Start () {
         facingRight = true;
         isGrounded = true;
         hit = false;
+        recentAttack = false;
         rBody = GetComponent<Rigidbody>();
-
+        anim = GetComponent<Animator>();
         health = maxHealth;
         
 
@@ -149,8 +154,6 @@ public class Player3D : MonoBehaviour {
             }
         }
 
-
-        
         HandleInput();
         healthBar.CurrentHealth = health;
 	}
@@ -200,34 +203,24 @@ public class Player3D : MonoBehaviour {
                 currentBullet = null;
                 attack1 = false;
             }
-            else
+            else 
             {
-                if (!rotated)
-                {
-                    this.transform.Rotate(0f, -90f, 0f);
-                    rotated = true;
-                }
-            }
-
-            attackTimer++;
-            if(attackTimer >= attackTime1)
-            {
+                anim.SetTrigger("attackTrigger");
                 attack1 = false;
-                attackTimer = 0;
-                this.transform.Rotate(0f, 90f, 0f);
-                rotated = false;
+                anim.SetTrigger("attackTrigger");
             }
             /*
             else
             {
-                myAnimator.SetTrigger("attack");
+                anim.SetTrigger("attack");
             }
+        }
+        */ 
         }
         else if (attack2)
         {
-            myAnimator.SetTrigger("attack2");
-        }
-        */
+            // anim.SetTrigger("attack2");
+            attack2 = false;
         }
     }
 
@@ -247,6 +240,7 @@ public class Player3D : MonoBehaviour {
         if (Input.GetKeyDown(attk2))
         {
             attack2 = true;
+            
         }
     }
 
@@ -326,7 +320,7 @@ public class Player3D : MonoBehaviour {
             }
         }
 
-        if(col.gameObject.tag == "rightArm")
+        if (col.gameObject.tag == "rightArm")
         {
             //damage me here
             Debug.Log("right arm colliding");
