@@ -104,7 +104,6 @@ public class Player3D : MonoBehaviour {
         GameObject[] g = GameObject.FindGameObjectsWithTag("rightArm");
         foreach(GameObject t in g)
         {
-            Debug.Log(t.gameObject.tag);
             if(t.GetComponentInParent<Player3D>().PlayerNum == this.playerNum 
                 && t.GetComponent<SphereCollider>() != null)
             {
