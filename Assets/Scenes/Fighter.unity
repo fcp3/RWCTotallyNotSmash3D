@@ -281,6 +281,22 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 168677074}
+--- !u!1 &268528043 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100140, guid: cad6249da0a37c842a06f85a499621ec, type: 3}
+  m_PrefabInternal: {fileID: 1366809568}
+--- !u!135 &268528045
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268528043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.04
+  m_Center: {x: 0, y: -0.03, z: 0}
 --- !u!1 &284704561
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,22 +840,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &995133385 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100164, guid: cad6249da0a37c842a06f85a499621ec, type: 3}
-  m_PrefabInternal: {fileID: 1366809568}
---- !u!135 &995133387
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 995133385}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.025
-  m_Center: {x: 0.01, y: 0, z: 0}
 --- !u!1 &1117388806
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,22 +1100,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.02
+  m_Radius: 0.04
   m_Height: 0.3
   m_Direction: 1
   m_Center: {x: 0, y: 0.16, z: 0}
---- !u!135 &1301374722
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1301374720}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.05
-  m_Center: {x: 0, y: 0.17, z: 0}
 --- !u!54 &1301374723
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1174,11 +1162,11 @@ SphereCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1302659035}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.05
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.04
+  m_Center: {x: 0, y: -0.03, z: 0}
 --- !u!1001 &1366809568
 Prefab:
   m_ObjectHideFlags: 0
@@ -1251,6 +1239,10 @@ Prefab:
       value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 100164, guid: cad6249da0a37c842a06f85a499621ec, type: 3}
+      propertyPath: m_TagString
+      value: rightArm
+      objectReference: {fileID: 0}
+    - target: {fileID: 100140, guid: cad6249da0a37c842a06f85a499621ec, type: 3}
       propertyPath: m_TagString
       value: rightArm
       objectReference: {fileID: 0}

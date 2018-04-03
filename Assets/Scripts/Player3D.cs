@@ -11,7 +11,7 @@ public class Player3D : MonoBehaviour {
 
     public bool Attacking
     {
-        get { return (attack1 || attack2); }
+        get { return anim.GetCurrentAnimatorStateInfo(0).IsName("attack"); }
     }
     
     public bool FacingRight
@@ -22,13 +22,9 @@ public class Player3D : MonoBehaviour {
     public int Damage
     {
         get {
-            if (attack1)
+            if(Attacking)
             {
                 return attackDamage1;
-            }
-            else if(attack2)
-            {
-                return attackDamage2;
             }
             return 0;
         }
@@ -53,6 +49,8 @@ public class Player3D : MonoBehaviour {
 
     Animator anim;
 
+    private GameObject rightArm;
+
     private BulletController currentBullet;
 
     protected bool hasBullet;
@@ -69,7 +67,8 @@ public class Player3D : MonoBehaviour {
     /*protected int attackTime1 = 100;
     protected int attackTime2 = 500;
     protected int attackTimer = 0;
-*/
+    */
+
     //added variables for movement, acceleration for ramped up speed
     int horizMove = 0;
     protected int accelerator = 50;
@@ -101,7 +100,17 @@ public class Player3D : MonoBehaviour {
         rBody = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         health = maxHealth;
-        
+
+        GameObject[] g = GameObject.FindGameObjectsWithTag("rightArm");
+        foreach(GameObject t in g)
+        {
+            Debug.Log(t.gameObject.tag);
+            if(t.GetComponentInParent<Player3D>().PlayerNum == this.playerNum 
+                && t.GetComponent<SphereCollider>() != null)
+            {
+                rightArm = t;
+            }
+        }
 
         if (playerNum == 1)
         {
@@ -161,6 +170,15 @@ public class Player3D : MonoBehaviour {
     private void FixedUpdate()
     {
         bool keyDown = false;
+
+        if(Attacking)
+        {
+            rightArm.gameObject.GetComponent<SphereCollider>().enabled = true;
+        }
+        else
+        {
+            rightArm.gameObject.GetComponent<SphereCollider>().enabled = false;
+        }
 
         if (Input.GetKey(left))
         {
@@ -286,6 +304,33 @@ public class Player3D : MonoBehaviour {
         recovered = false;
     }
 
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.gameObject.tag == "rightArm")
+        {
+            //damage me here
+            Debug.Log("right arm colliding");
+            Player3D p = col.gameObject.GetComponentInParent<Player3D>();
+            Debug.Log("On trigger enter: " + p.Attacking);
+            Debug.Log("rightArm player is attacking");
+            if (recovered)
+            {
+                Debug.Log("player is recovered");
+                int x = 0, y = 0;
+
+                if (p.FacingRight) { x = 1; }
+                else { x = -1; }
+
+                if (p.transform.position.y > this.transform.position.y) { y = -1; }
+                else { y = 1; }
+
+                int d = p.Damage;
+
+                damage(d, new Vector2(x, y));
+            }
+        }
+    }
+
     private void OnCollisionEnter(Collision col)
     {
         if(col.gameObject.tag == "ground")
@@ -300,7 +345,7 @@ public class Player3D : MonoBehaviour {
         {
             GameObject p1 = col.gameObject;
             Physics.IgnoreCollision(p1.GetComponent<CapsuleCollider>(), GetComponent<CapsuleCollider>());
-            Player3D p = col.gameObject.GetComponentInParent<Player3D>();
+            /*Player3D p = col.gameObject.GetComponentInParent<Player3D>();
             if (p.Attacking)
             {
                 if (recovered)
@@ -318,32 +363,7 @@ public class Player3D : MonoBehaviour {
                     damage(d, new Vector2(x, y));
                 }
             }
-        }
-
-        if (col.gameObject.tag == "rightArm")
-        {
-            //damage me here
-            Debug.Log("right arm colliding");
-            Player3D p = col.gameObject.GetComponentInParent<Player3D>();
-            if (p.Attacking)
-            {
-                Debug.Log("rightArm player is attacking");
-                if (recovered)
-                {
-                    Debug.Log("player is recovered");
-                    int x = 0, y = 0;
-
-                    if (p.FacingRight) { x = 1; }
-                    else { x = -1; }
-
-                    if(p.transform.position.y > this.transform.position.y) { y = -1; }
-                    else { y = 1; }
-
-                    int d = p.Damage;
-                    
-                    damage(d, new Vector2(x,y));
-                }
-            }
+            */
         }
 
         if (col.gameObject.tag == "bullet")
