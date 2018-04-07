@@ -59,7 +59,7 @@ public class Player3D : MonoBehaviour {
     protected bool recovering;
     protected bool recentAttack;
 
-    protected int attackDamage1 = 10, attackDamage2 = 10;
+    protected int attackDamage1 = 100, attackDamage2 = 10;
 
     protected int recoveryTime = 100;
     protected int recoveryTimer = 0;

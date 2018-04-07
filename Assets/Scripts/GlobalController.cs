@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GlobalController : MonoBehaviour {
 
@@ -16,6 +17,8 @@ public class GlobalController : MonoBehaviour {
 
     static bool loadLevel = false;
 
+    public Text gameOverText;
+    public Text winnerText;
 
     //public GameObject bullet;
     //bool bulletSpawn = false;
@@ -28,6 +31,8 @@ public class GlobalController : MonoBehaviour {
     public int ticker = 0;
 
 	void Start () {
+        winnerText.enabled = false;
+        gameOverText.enabled = false;
 
         currentGameState = Gamestate.PLAYING;
         prevGameState = Gamestate.PAUSE;
@@ -78,6 +83,16 @@ public class GlobalController : MonoBehaviour {
             }
         }
 
+        if (currentGameState == Gamestate.GAME_OVER)
+        {
+            winnerText.enabled = true;
+            gameOverText.enabled = true;
+            Time.timeScale = 0;
+            SetWinnerText();
+        }
+
+        
+
 		if(Input.GetKeyDown(KeyCode.Escape))
         {
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
@@ -92,6 +107,18 @@ public class GlobalController : MonoBehaviour {
         }
 
 	}
+
+    private void SetWinnerText()
+    {
+        if (p1Health.CurrentHealth <= 0)
+        {
+            winnerText.text = "Player 2 has won!";
+        }
+        else if (p2Health.CurrentHealth <= 0)
+        {
+            winnerText.text = "Player 1 has won!";
+        }
+    }
 
     private void changeGameState(Gamestate state)
     {
