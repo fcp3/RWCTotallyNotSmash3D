@@ -43,10 +43,6 @@ public class ItemSpawner : MonoBehaviour {
         switch (spawn)
         {
             case Items.BULLET:
-                
-                Debug.Log(bullet);
-                Debug.Log(nextPos);
-
                 Instantiate(bullet, nextPos, Quaternion.identity);
                 break;
             case Items.STAR:
@@ -96,11 +92,12 @@ public class ItemSpawner : MonoBehaviour {
 
     void chooseNextSpawn()
     {
-        nextSpawn = Random.Range(200, 400);
+        nextSpawn = Random.Range(20, 40);
     }
 
     void chooseNextLocation()
     {
         nextPos = new Vector3(Random.Range(-12, 12), Random.Range(5, 10), 0);
+        Debug.Log(nextPos);
     }
 }
