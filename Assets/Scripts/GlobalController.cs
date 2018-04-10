@@ -19,6 +19,7 @@ public class GlobalController : MonoBehaviour {
 
     public Text gameOverText;
     public Text winnerText;
+    public Text pauseText;
 
     //public GameObject bullet;
     //bool bulletSpawn = false;
@@ -66,12 +67,21 @@ public class GlobalController : MonoBehaviour {
         {
             Time.timeScale = 0;
             inGameLight.intensity = .01f;
+            pauseText.enabled = true;
             //Show pause on screen
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                SceneManager.LoadScene("StageSelect");
+            } else if(Input.GetKeyDown(KeyCode.X))
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
         }
         else if (currentGameState == Gamestate.PLAYING)
         {
             Time.timeScale = 1;
             inGameLight.intensity = 1f;
+            pauseText.enabled = false;
 
             if(p1Health.CurrentHealth <= 0)
             {

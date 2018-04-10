@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 2946e6aa7f77eee4baad9a48657dde1e
+timeCreated: 1523396171
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Envy:Platform
+    100002: Envy:Spike1
+    100004: Envy:Spike1 1
+    100006: Envy:Spike1 2
+    100008: Envy:Spike2
+    100010: Envy:Spike2 1
+    100012: Envy:Spike2 2
+    100014: Envy:Spike3
+    100016: Envy:Spike3 1
+    100018: Envy:Spike3 2
+    100020: Envy:Spike4
+    100022: Envy:Spike4 1
+    100024: Envy:Spike4 2
+    100026: Envy:Spike5
+    100028: Envy:Spike5 1
+    100030: Envy:Spike5 2
+    100032: Envy:Spike6
+    100034: Envy:Spike6 1
+    100036: Envy:Spike6 2
+    100038: Envy:Spike7
+    100040: Envy:Spike7 1
+    100042: Envy:Spike7 2
+    100044: Envy:Spikes1
+    100046: Envy:Spikes1_Envy:Spike4
+    100048: Envy:Spikes1_Envy:transform1
+    100050: Envy:Spikes1_Envy:transform10
+    100052: Envy:Spikes1_Envy:transform11
+    100054: Envy:Spikes1_Envy:transform12
+    100056: Envy:Spikes1_Envy:transform13
+    100058: Envy:Spikes1_Envy:transform14
+    100060: Envy:Spikes1_Envy:transform15
+    100062: Envy:Spikes1_Envy:transform16
+    100064: Envy:Spikes1_Envy:transform17
+    100066: Envy:Spikes1_Envy:transform18
+    100068: Envy:Spikes1_Envy:transform19
+    100070: Envy:Spikes1_Envy:transform2
+    100072: Envy:Spikes1_Envy:transform20
+    100074: Envy:Spikes1_Envy:transform21
+    100076: Envy:Spikes1_Envy:transform22
+    100078: Envy:Spikes1_Envy:transform23
+    100080: Envy:Spikes1_Envy:transform24
+    100082: Envy:Spikes1_Envy:transform25
+    100084: Envy:Spikes1_Envy:transform26
+    100086: Envy:Spikes1_Envy:transform27
+    100088: Envy:Spikes1_Envy:transform28
+    100090: Envy:Spikes1_Envy:transform29
+    100092: Envy:Spikes1_Envy:transform3
+    100094: Envy:Spikes1_Envy:transform30
+    100096: Envy:Spikes1_Envy:transform31
+    100098: Envy:Spikes1_Envy:transform4
+    100100: Envy:Spikes1_Envy:transform5
+    100102: Envy:Spikes1_Envy:transform6
+    100104: Envy:Spikes1_Envy:transform7
+    100106: Envy:Spikes1_Envy:transform8
+    100108: Envy:Spikes1_Envy:transform9
+    100110: Envy:Spikes2
+    100112: Envy:Spikes3
+    100114: //RootNode
+    100116: pCone1
+    100118: pCone2
+    100120: pCube1
+    100122: pCube2
+    100124: pCube3
+    100126: pCube4
+    100128: pCube5
+    100130: pSphere1
+    100132: pSphere2
+    400000: Envy:Platform
+    400002: Envy:Spike1
+    400004: Envy:Spike1 1
+    400006: Envy:Spike1 2
+    400008: Envy:Spike2
+    400010: Envy:Spike2 1
+    400012: Envy:Spike2 2
+    400014: Envy:Spike3
+    400016: Envy:Spike3 1
+    400018: Envy:Spike3 2
+    400020: Envy:Spike4
+    400022: Envy:Spike4 1
+    400024: Envy:Spike4 2
+    400026: Envy:Spike5
+    400028: Envy:Spike5 1
+    400030: Envy:Spike5 2
+    400032: Envy:Spike6
+    400034: Envy:Spike6 1
+    400036: Envy:Spike6 2
+    400038: Envy:Spike7
+    400040: Envy:Spike7 1
+    400042: Envy:Spike7 2
+    400044: Envy:Spikes1
+    400046: Envy:Spikes1_Envy:Spike4
+    400048: Envy:Spikes1_Envy:transform1
+    400050: Envy:Spikes1_Envy:transform10
+    400052: Envy:Spikes1_Envy:transform11
+    400054: Envy:Spikes1_Envy:transform12
+    400056: Envy:Spikes1_Envy:transform13
+    400058: Envy:Spikes1_Envy:transform14
+    400060: Envy:Spikes1_Envy:transform15
+    400062: Envy:Spikes1_Envy:transform16
+    400064: Envy:Spikes1_Envy:transform17
+    400066: Envy:Spikes1_Envy:transform18
+    400068: Envy:Spikes1_Envy:transform19
+    400070: Envy:Spikes1_Envy:transform2
+    400072: Envy:Spikes1_Envy:transform20
+    400074: Envy:Spikes1_Envy:transform21
+    400076: Envy:Spikes1_Envy:transform22
+    400078: Envy:Spikes1_Envy:transform23
+    400080: Envy:Spikes1_Envy:transform24
+    400082: Envy:Spikes1_Envy:transform25
+    400084: Envy:Spikes1_Envy:transform26
+    400086: Envy:Spikes1_Envy:transform27
+    400088: Envy:Spikes1_Envy:transform28
+    400090: Envy:Spikes1_Envy:transform29
+    400092: Envy:Spikes1_Envy:transform3
+    400094: Envy:Spikes1_Envy:transform30
+    400096: Envy:Spikes1_Envy:transform31
+    400098: Envy:Spikes1_Envy:transform4
+    400100: Envy:Spikes1_Envy:transform5
+    400102: Envy:Spikes1_Envy:transform6
+    400104: Envy:Spikes1_Envy:transform7
+    400106: Envy:Spikes1_Envy:transform8
+    400108: Envy:Spikes1_Envy:transform9
+    400110: Envy:Spikes2
+    400112: Envy:Spikes3
+    400114: //RootNode
+    400116: pCone1
+    400118: pCone2
+    400120: pCube1
+    400122: pCube2
+    400124: pCube3
+    400126: pCube4
+    400128: pCube5
+    400130: pSphere1
+    400132: pSphere2
+    2300000: Envy:Spikes1_Envy:Spike4
+    3300000: Envy:Spikes1_Envy:Spike4
+    4300000: Envy:Spikes1_Envy:Spike4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

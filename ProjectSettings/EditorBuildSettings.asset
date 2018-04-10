@@ -9,8 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2a8d9d4f98d402c4f84137865456b079
   - enabled: 1
-    path: Assets/Scenes/Fighter.unity
+    path: Assets/Scenes/StageSelect.unity
+    guid: d1a9b86a971e1ea40bc436660e3c5bbf
+  - enabled: 1
+    path: Assets/Scenes/StageEnvy.unity
     guid: 40a0504a3f9df804eb348caf144cd7e1
+  - enabled: 1
+    path: Assets/Scenes/StageGreed.unity
+    guid: 38a0a5ae279560842822b7deafa704fa
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 8f64b6a69b9a5e648af436bb0980bdfd
