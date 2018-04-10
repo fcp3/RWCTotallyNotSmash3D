@@ -59,7 +59,7 @@ public class Player3D : MonoBehaviour {
     protected bool recovering;
     protected bool recentAttack;
 
-    protected int attackDamage1 = 100, attackDamage2 = 10;
+    protected int attackDamage1 = 10, attackDamage2 = 10;
 
     protected int recoveryTime = 100;
     protected int recoveryTimer = 0;
@@ -263,6 +263,20 @@ public class Player3D : MonoBehaviour {
 
     private void HandleMovement(float horizontal)
     {
+        if(facingRight)
+        {
+
+            float angleToChange = transform.eulerAngles.y;
+            float goal = 90 - angleToChange;
+            transform.Rotate(0, goal * 60 * Time.deltaTime, 0);
+        }
+        else
+        {
+            float angleToChange = transform.eulerAngles.y;
+            float goal = 270 - angleToChange;
+            transform.Rotate(0, goal * 60 * Time.deltaTime, 0);
+        }
+
         if (isGrounded && jump)
         {
             isGrounded = false;
@@ -344,25 +358,6 @@ public class Player3D : MonoBehaviour {
         {
             GameObject p1 = col.gameObject;
             Physics.IgnoreCollision(p1.GetComponent<CapsuleCollider>(), GetComponent<CapsuleCollider>());
-            /*Player3D p = col.gameObject.GetComponentInParent<Player3D>();
-            if (p.Attacking)
-            {
-                if (recovered)
-                {
-                    int x = 0, y = 0;
-
-                    if (p.FacingRight) { x = 1; }
-                    else { x = -1; }
-
-                    if (p.transform.position.y > this.transform.position.y) { y = -1; }
-                    else { y = 1; }
-
-                    int d = p.Damage;
-
-                    damage(d, new Vector2(x, y));
-                }
-            }
-            */
         }
 
         if (col.gameObject.tag == "bullet")
