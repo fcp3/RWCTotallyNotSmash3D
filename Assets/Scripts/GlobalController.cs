@@ -79,6 +79,19 @@ public class GlobalController : MonoBehaviour {
         }
         else if (currentGameState == Gamestate.PLAYING)
         {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+                if (currentGameState == Gamestate.PAUSE)
+                {
+                    changeGameState(Gamestate.PLAYING);
+                }
+                else
+                {
+                    changeGameState(Gamestate.PAUSE);
+                }
+            }
+
             Time.timeScale = 1;
             inGameLight.intensity = 1f;
             pauseText.enabled = false;
@@ -99,22 +112,10 @@ public class GlobalController : MonoBehaviour {
             gameOverText.enabled = true;
             Time.timeScale = 0;
             SetWinnerText();
+            
         }
 
         
-
-		if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-            if (currentGameState == Gamestate.PAUSE)
-            {
-                changeGameState(Gamestate.PLAYING);
-            }
-            else
-            {
-                changeGameState(Gamestate.PAUSE);
-            }
-        }
 
 	}
 
