@@ -342,6 +342,11 @@ public class Player3D : MonoBehaviour {
                 damage(d, new Vector2(x, y));
             }
         }
+        if (col.gameObject.tag == "fallBox")
+        {
+            int fallDamage = 100;
+            damage(fallDamage, new Vector2(0, 0));
+        }
     }
 
     private void OnCollisionEnter(Collision col)
