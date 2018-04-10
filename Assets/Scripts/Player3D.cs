@@ -13,7 +13,7 @@ public class Player3D : MonoBehaviour {
     {
         get { return anim.GetCurrentAnimatorStateInfo(0).IsName("attack"); }
     }
-    
+
     public bool FacingRight
     {
         get { return facingRight; }
@@ -104,7 +104,7 @@ public class Player3D : MonoBehaviour {
         GameObject[] g = GameObject.FindGameObjectsWithTag("rightArm");
         foreach(GameObject t in g)
         {
-            if(t.GetComponentInParent<Player3D>().PlayerNum == this.playerNum 
+            if(t.GetComponentInParent<Player3D>().PlayerNum == this.playerNum
                 && t.GetComponent<SphereCollider>() != null)
             {
                 rightArm = t;
@@ -142,7 +142,7 @@ public class Player3D : MonoBehaviour {
             attk2 = KeyCode.RightControl;
         }
     }
-	
+
 	// Update is called once per frame
 	void Update () {
         if(recovered)
@@ -220,7 +220,7 @@ public class Player3D : MonoBehaviour {
                 currentBullet = null;
                 attack1 = false;
             }
-            else 
+            else
             {
                 anim.SetTrigger("attackTrigger");
                 attack1 = false;
@@ -232,7 +232,7 @@ public class Player3D : MonoBehaviour {
                 anim.SetTrigger("attack");
             }
         }
-        */ 
+        */
         }
         else if (attack2)
         {
@@ -257,7 +257,7 @@ public class Player3D : MonoBehaviour {
         if (Input.GetKeyDown(attk2))
         {
             attack2 = true;
-            
+
         }
     }
 
@@ -309,7 +309,7 @@ public class Player3D : MonoBehaviour {
 
     protected void damage(int d, Vector2 k)
     {
-        float modifier = 25f;
+        float modifier = 10f + ((maxHealth - health) / 10f);
         rBody.AddForce(k * (modifier * d));
         health -= d;
         Debug.Log("Hit the player " + health);
@@ -322,13 +322,9 @@ public class Player3D : MonoBehaviour {
         if (col.gameObject.tag == "rightArm")
         {
             //damage me here
-            Debug.Log("right arm colliding");
             Player3D p = col.gameObject.GetComponentInParent<Player3D>();
-            Debug.Log("On trigger enter: " + p.Attacking);
-            Debug.Log("rightArm player is attacking");
             if (recovered)
             {
-                Debug.Log("player is recovered");
                 int x = 0, y = 0;
 
                 if (p.FacingRight) { x = 1; }
@@ -342,10 +338,31 @@ public class Player3D : MonoBehaviour {
                 damage(d, new Vector2(x, y));
             }
         }
+
         if (col.gameObject.tag == "fallBox")
         {
             int fallDamage = 100;
             damage(fallDamage, new Vector2(0, 0));
+
+        }
+        if(col.gameObject.tag == "weapon")
+        {
+            Weapon w = col.gameObject.GetComponent<Weapon>();
+            Player3D p = col.gameObject.GetComponentInParent<Player3D>();
+            if (recovered && p.Attacking && w.PlayerNum != this.playerNum)
+            {
+                int x = 0, y = 0;
+
+                if (p.FacingRight) { x = 1; }
+                else { x = -1; }
+
+                if (p.transform.position.y > this.transform.position.y) { y = -1; }
+                else { y = 1; }
+
+                int d = w.Damage;
+
+                damage(d, new Vector2(x, y));
+            }
         }
     }
 
@@ -359,7 +376,19 @@ public class Player3D : MonoBehaviour {
             frictionModifier = 5f;
         }
 
-        if(col.gameObject.tag == "player")
+        if (col.gameObject.tag == "weapon")
+        {
+            Weapon w = col.gameObject.GetComponent<Weapon>();
+            if (w.PlayerNum == 0)
+            {
+                w.PlayerNum = this.playerNum;
+                col.gameObject.transform.parent = rightArm.gameObject.transform;
+                col.gameObject.transform.position = rightArm.gameObject.transform.position;
+                w.PickedUp = true;
+            }
+        }
+
+        if (col.gameObject.tag == "player")
         {
             GameObject p1 = col.gameObject;
             Physics.IgnoreCollision(p1.GetComponent<CapsuleCollider>(), GetComponent<CapsuleCollider>());

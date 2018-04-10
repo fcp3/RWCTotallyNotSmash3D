@@ -23,7 +23,7 @@ public class BulletController : MonoBehaviour {
 
     [SerializeField]
     float speed;
-    float horizMove;
+    protected float horizMove;
 
     [SerializeField]
     int playerNum;
@@ -31,15 +31,15 @@ public class BulletController : MonoBehaviour {
     [SerializeField]
     int damage;
 
-    Rigidbody rBody;
+    protected Rigidbody rBody;
 
-    private bool hasGravity;
+    protected bool hasGravity;
     protected bool isShooting;
     protected bool facingRight;
     protected bool pickedUp;
 
 	// Use this for initialization
-	void Start () {
+	protected virtual void Start () {
         hasGravity = true;
         isShooting = false;
         facingRight = false;
@@ -53,22 +53,26 @@ public class BulletController : MonoBehaviour {
 		
 	}
 
-    private void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         if(!hasGravity)
         {
             rBody.useGravity = false;
+        }
+        else
+        {
+            rBody.useGravity = true;
         }
 
         if(isShooting)
         {
             if(facingRight)
             {
-                horizMove = 2.5f;
+                horizMove = 5;
             }
             else
             {
-                horizMove = -2.5f;
+                horizMove = -5;
             }
         }
 
@@ -77,10 +81,17 @@ public class BulletController : MonoBehaviour {
 
     public void HandleMovement(float horizontal)
     {
-        rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+        if (isShooting)
+        {
+            rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+        }
+        else
+        {
+            rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y);
+        }
     }
 
-    public void Shoot (Transform t)
+    public virtual void Shoot (Transform t)
     {
         isShooting = true;
         // need to adjust position based on players direction
@@ -99,13 +110,13 @@ public class BulletController : MonoBehaviour {
 
         Vector3 spawnPos = playerPos + (playerDirection * spawnDistance);
 
-        Debug.Log(spawnPos);
-
         transform.position = spawnPos;
+        transform.position = new Vector3(transform.position.x, transform.position.y + 1,
+            transform.position.z);
         transform.localScale = new Vector3(1, 1, 1);
     }
 
-    private void OnCollisionEnter(Collision col)
+    protected virtual void OnCollisionEnter(Collision col)
     {
         if(col.gameObject.tag == "player")
         {

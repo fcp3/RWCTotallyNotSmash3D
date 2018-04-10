@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 006064531d49de54591c9ad294d40da2
+timeCreated: 1523387040
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hammer: {instanceID: 0}
+  - pizza: {instanceID: 0}
+  - stone: {fileID: 1769889397624792, guid: 7e75b84b71f5ec34abbe89a329803b01, type: 2}
+  - star: {fileID: 1228929232413588, guid: a19a139f220d35b4ca330ef077549329, type: 2}
+  - bullet: {instanceID: 0}
+  - shank: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

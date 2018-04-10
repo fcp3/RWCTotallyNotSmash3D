@@ -54,7 +54,7 @@ public class FightCamera : MonoBehaviour
 
         destSize = MAX_SIZE * distance * distanceScale;
 
-        currentSize += (destSize - currentSize) * delta;
+        currentSize += (destSize - currentSize) * delta * speed;
 
         if (currentSize > MAX_SIZE) { currentSize = MAX_SIZE; }
         if (currentSize < MIN_SIZE) { currentSize = MIN_SIZE; }
