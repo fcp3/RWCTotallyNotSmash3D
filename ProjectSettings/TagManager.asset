@@ -13,6 +13,7 @@ TagManager:
   - gameOverText
   - winnerText
   - gameOverBackground
+  - weapon
   layers:
   - Default
   - TransparentFX
