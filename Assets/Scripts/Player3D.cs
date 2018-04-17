@@ -120,7 +120,7 @@ public class Player3D : MonoBehaviour {
 
             left = KeyCode.A;
             right = KeyCode.D;
-            jumpMove = KeyCode.Space;
+            jumpMove = KeyCode.W;
             down = KeyCode.S;
 
             attk1 = KeyCode.LeftShift;
@@ -343,7 +343,6 @@ public class Player3D : MonoBehaviour {
         {
             int fallDamage = 100;
             damage(fallDamage, new Vector2(0, 0));
-
         }
         if(col.gameObject.tag == "weapon")
         {

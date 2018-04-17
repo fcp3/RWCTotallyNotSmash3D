@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 02b8041c6ddcee3428810c7e7a438e0e
+guid: 3f92ba5fe432c914e97c02ba197680fa
 timeCreated: 1484171297
 licenseType: Store
 TrueTypeFontImporter:
@@ -12,7 +12,8 @@ TrueTypeFontImporter:
   fontName: Liberation Sans
   fontNames:
   - Liberation Sans
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 02b8041c6ddcee3428810c7e7a438e0e, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
