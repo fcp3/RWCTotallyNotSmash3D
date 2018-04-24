@@ -1,0 +1,867 @@
+fileFormatVersion: 2
+guid: 556dd4708b6cf7a47aead5cf240842ac
+timeCreated: 1524596794
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BlueGuySkele_Ctrl_ChestEndEffector
+    100002: BlueGuySkele_Ctrl_ChestOriginEffector
+    100004: BlueGuySkele_Ctrl_Head
+    100006: BlueGuySkele_Ctrl_HeadEffector
+    100008: BlueGuySkele_Ctrl_Hips
+    100010: BlueGuySkele_Ctrl_HipsEffector
+    100012: BlueGuySkele_Ctrl_LeftAnkleEffector
+    100014: BlueGuySkele_Ctrl_LeftArm
+    100016: BlueGuySkele_Ctrl_LeftElbowEffector
+    100018: BlueGuySkele_Ctrl_LeftFoot
+    100020: BlueGuySkele_Ctrl_LeftFootEffector
+    100022: BlueGuySkele_Ctrl_LeftForeArm
+    100024: BlueGuySkele_Ctrl_LeftHand
+    100026: BlueGuySkele_Ctrl_LeftHipEffector
+    100028: BlueGuySkele_Ctrl_LeftKneeEffector
+    100030: BlueGuySkele_Ctrl_LeftLeg
+    100032: BlueGuySkele_Ctrl_LeftShoulder
+    100034: BlueGuySkele_Ctrl_LeftShoulderEffector
+    100036: BlueGuySkele_Ctrl_LeftToeBase
+    100038: BlueGuySkele_Ctrl_LeftUpLeg
+    100040: BlueGuySkele_Ctrl_LeftWristEffector
+    100042: BlueGuySkele_Ctrl_Reference
+    100044: BlueGuySkele_Ctrl_RightAnkleEffector
+    100046: BlueGuySkele_Ctrl_RightArm
+    100048: BlueGuySkele_Ctrl_RightElbowEffector
+    100050: BlueGuySkele_Ctrl_RightFoot
+    100052: BlueGuySkele_Ctrl_RightFootEffector
+    100054: BlueGuySkele_Ctrl_RightForeArm
+    100056: BlueGuySkele_Ctrl_RightHand
+    100058: BlueGuySkele_Ctrl_RightHipEffector
+    100060: BlueGuySkele_Ctrl_RightKneeEffector
+    100062: BlueGuySkele_Ctrl_RightLeg
+    100064: BlueGuySkele_Ctrl_RightShoulder
+    100066: BlueGuySkele_Ctrl_RightShoulderEffector
+    100068: BlueGuySkele_Ctrl_RightToeBase
+    100070: BlueGuySkele_Ctrl_RightUpLeg
+    100072: BlueGuySkele_Ctrl_RightWristEffector
+    100074: BlueGuySkele_Ctrl_Spine
+    100076: BlueGuySkele_Ctrl_Spine1
+    100078: BlueGuySkele_Ctrl_Spine2
+    100080: BlueGuySkele_Guides
+    100082: BlueGuySkele_Head
+    100084: BlueGuySkele_Hips
+    100086: BlueGuySkele_LeftArm
+    100088: BlueGuySkele_LeftFoot
+    100090: BlueGuySkele_LeftForeArm
+    100092: BlueGuySkele_LeftHand
+    100094: BlueGuySkele_LeftLeg
+    100096: BlueGuySkele_LeftShoulder
+    100098: BlueGuySkele_LeftToeBase
+    100100: BlueGuySkele_LeftUpLeg
+    100102: BlueGuySkele_Reference
+    100104: BlueGuySkele_RightArm
+    100106: BlueGuySkele_RightFoot
+    100108: BlueGuySkele_RightForeArm
+    100110: BlueGuySkele_RightHand
+    100112: BlueGuySkele_RightLeg
+    100114: BlueGuySkele_RightShoulder
+    100116: BlueGuySkele_RightToeBase
+    100118: BlueGuySkele_RightUpLeg
+    100120: BlueGuySkele_Spine
+    100122: BlueGuySkele_Spine1
+    100124: BlueGuySkele_Spine2
+    100126: Bostaff
+    100128: Head
+    100130: Hips
+    100132: LeftArm
+    100134: LeftFoot
+    100136: LeftForeArm
+    100138: LeftHand
+    100140: LeftLeg
+    100142: LeftShoulder
+    100144: LeftToeBase
+    100146: LeftUpLeg
+    100148: RedDude
+    100150: //RootNode
+    100152: Reference
+    100154: RightArm
+    100156: RightFoot
+    100158: RightForeArm
+    100160: RightHand
+    100162: RightLeg
+    100164: RightShoulder
+    100166: RightToeBase
+    100168: RightUpLeg
+    100170: Spine
+    100172: Spine1
+    100174: Spine2
+    400000: BlueGuySkele_Ctrl_ChestEndEffector
+    400002: BlueGuySkele_Ctrl_ChestOriginEffector
+    400004: BlueGuySkele_Ctrl_Head
+    400006: BlueGuySkele_Ctrl_HeadEffector
+    400008: BlueGuySkele_Ctrl_Hips
+    400010: BlueGuySkele_Ctrl_HipsEffector
+    400012: BlueGuySkele_Ctrl_LeftAnkleEffector
+    400014: BlueGuySkele_Ctrl_LeftArm
+    400016: BlueGuySkele_Ctrl_LeftElbowEffector
+    400018: BlueGuySkele_Ctrl_LeftFoot
+    400020: BlueGuySkele_Ctrl_LeftFootEffector
+    400022: BlueGuySkele_Ctrl_LeftForeArm
+    400024: BlueGuySkele_Ctrl_LeftHand
+    400026: BlueGuySkele_Ctrl_LeftHipEffector
+    400028: BlueGuySkele_Ctrl_LeftKneeEffector
+    400030: BlueGuySkele_Ctrl_LeftLeg
+    400032: BlueGuySkele_Ctrl_LeftShoulder
+    400034: BlueGuySkele_Ctrl_LeftShoulderEffector
+    400036: BlueGuySkele_Ctrl_LeftToeBase
+    400038: BlueGuySkele_Ctrl_LeftUpLeg
+    400040: BlueGuySkele_Ctrl_LeftWristEffector
+    400042: BlueGuySkele_Ctrl_Reference
+    400044: BlueGuySkele_Ctrl_RightAnkleEffector
+    400046: BlueGuySkele_Ctrl_RightArm
+    400048: BlueGuySkele_Ctrl_RightElbowEffector
+    400050: BlueGuySkele_Ctrl_RightFoot
+    400052: BlueGuySkele_Ctrl_RightFootEffector
+    400054: BlueGuySkele_Ctrl_RightForeArm
+    400056: BlueGuySkele_Ctrl_RightHand
+    400058: BlueGuySkele_Ctrl_RightHipEffector
+    400060: BlueGuySkele_Ctrl_RightKneeEffector
+    400062: BlueGuySkele_Ctrl_RightLeg
+    400064: BlueGuySkele_Ctrl_RightShoulder
+    400066: BlueGuySkele_Ctrl_RightShoulderEffector
+    400068: BlueGuySkele_Ctrl_RightToeBase
+    400070: BlueGuySkele_Ctrl_RightUpLeg
+    400072: BlueGuySkele_Ctrl_RightWristEffector
+    400074: BlueGuySkele_Ctrl_Spine
+    400076: BlueGuySkele_Ctrl_Spine1
+    400078: BlueGuySkele_Ctrl_Spine2
+    400080: BlueGuySkele_Guides
+    400082: BlueGuySkele_Head
+    400084: BlueGuySkele_Hips
+    400086: BlueGuySkele_LeftArm
+    400088: BlueGuySkele_LeftFoot
+    400090: BlueGuySkele_LeftForeArm
+    400092: BlueGuySkele_LeftHand
+    400094: BlueGuySkele_LeftLeg
+    400096: BlueGuySkele_LeftShoulder
+    400098: BlueGuySkele_LeftToeBase
+    400100: BlueGuySkele_LeftUpLeg
+    400102: BlueGuySkele_Reference
+    400104: BlueGuySkele_RightArm
+    400106: BlueGuySkele_RightFoot
+    400108: BlueGuySkele_RightForeArm
+    400110: BlueGuySkele_RightHand
+    400112: BlueGuySkele_RightLeg
+    400114: BlueGuySkele_RightShoulder
+    400116: BlueGuySkele_RightToeBase
+    400118: BlueGuySkele_RightUpLeg
+    400120: BlueGuySkele_Spine
+    400122: BlueGuySkele_Spine1
+    400124: BlueGuySkele_Spine2
+    400126: Bostaff
+    400128: Head
+    400130: Hips
+    400132: LeftArm
+    400134: LeftFoot
+    400136: LeftForeArm
+    400138: LeftHand
+    400140: LeftLeg
+    400142: LeftShoulder
+    400144: LeftToeBase
+    400146: LeftUpLeg
+    400148: RedDude
+    400150: //RootNode
+    400152: Reference
+    400154: RightArm
+    400156: RightFoot
+    400158: RightForeArm
+    400160: RightHand
+    400162: RightLeg
+    400164: RightShoulder
+    400166: RightToeBase
+    400168: RightUpLeg
+    400170: Spine
+    400172: Spine1
+    400174: Spine2
+    2100000: blinn2
+    2100002: Blue
+    2100004: blinn3
+    2300000: Bostaff
+    3300000: Bostaff
+    4300000: RedDude
+    4300002: Bostaff
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: RedDude
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: BlueGuySkele_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_Spine2
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: BlueGuySkele_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: RedDudeChar(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_Reference
+      parentName: RedDudeChar(Clone)
+      position: {x: 0.000018036366, y: -0.00023777007, z: 0.0006150317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_ChestEndEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0, y: 0.11321636, z: 0.007146236}
+      rotation: {x: 0.12477355, y: 7.467203e-18, z: -7.638218e-18, w: 0.99218524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_ChestOriginEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0, y: 0.06738862, z: -0.00032150903}
+      rotation: {x: 0.06255015, y: -1.0695025e-16, z: -2.1771841e-16, w: 0.99804187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_HeadEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0, y: 0.12428873, z: 0.010209941}
+      rotation: {x: 0.12477355, y: 3.534547e-17, z: -2.2794956e-16, w: 0.99218524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_Hips
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0, y: 0.04970212, z: -0.00032572506}
+      rotation: {x: -0.000000018379428, y: 1.11022296e-16, z: 2.7755582e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftUpLeg
+      parentName: BlueGuySkele_Ctrl_Hips
+      position: {x: -0.00922641, y: -0.00005139351, z: -0.000101449485}
+      rotation: {x: -0.35457212, y: 0.013126061, z: -0.07283196, w: 0.9320954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftLeg
+      parentName: BlueGuySkele_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.026841318, z: -3.469447e-20}
+      rotation: {x: 0.31330508, y: 0.0068883086, z: 0.0022865222, w: 0.94962484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftFoot
+      parentName: BlueGuySkele_Ctrl_LeftLeg
+      position: {x: -0, y: -0.02511028, z: 0}
+      rotation: {x: 0.04402552, y: 0.004809014, z: 0.07433413, w: 0.9962495}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftToeBase
+      parentName: BlueGuySkele_Ctrl_LeftFoot
+      position: {x: -0.00000000834465, y: -0.0049202205, z: 0.012572292}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightUpLeg
+      parentName: BlueGuySkele_Ctrl_Hips
+      position: {x: 0.00922641, y: -0.00005139351, z: -0.000101449485}
+      rotation: {x: 0.07237086, y: -0.015191504, z: 0.099709004, w: 0.992265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightLeg
+      parentName: BlueGuySkele_Ctrl_RightUpLeg
+      position: {x: 0.0000000017881393, y: -0.026841318, z: 0.0000002625771}
+      rotation: {x: 0.28085026, y: -0.009456406, z: -0.0027745345, w: 0.95970106}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightFoot
+      parentName: BlueGuySkele_Ctrl_RightLeg
+      position: {x: -5.9604643e-10, y: -0.02511028, z: 0}
+      rotation: {x: -0.34928253, y: -0.006121091, z: -0.09654738, w: 0.9320101}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightToeBase
+      parentName: BlueGuySkele_Ctrl_RightFoot
+      position: {x: 0.0000010532141, y: -0.0049202205, z: 0.012572293}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_Spine
+      parentName: BlueGuySkele_Ctrl_Hips
+      position: {x: -2.1684043e-21, y: 0.017686496, z: 0.0000042166935}
+      rotation: {x: 0.062550165, y: 1.7426057e-17, z: -1.0772766e-17, w: 0.99804187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_Spine1
+      parentName: BlueGuySkele_Ctrl_Spine
+      position: {x: -0, y: 0.015615897, z: -0.00010952158}
+      rotation: {x: 0.031249197, y: 7.1777704e-17, z: 1.0185124e-16, w: 0.99951166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_Spine2
+      parentName: BlueGuySkele_Ctrl_Spine1
+      position: {x: -0, y: 0.019127568, z: -0.00010952158}
+      rotation: {x: 0.031249218, y: -7.5958805e-17, z: 1.5947694e-16, w: 0.99951166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_Head
+      parentName: BlueGuySkele_Ctrl_Spine2
+      position: {x: 2.1684043e-21, y: 0.023172216, z: -0.00052475167}
+      rotation: {x: 3.0817192e-16, y: 5.551115e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftShoulder
+      parentName: BlueGuySkele_Ctrl_Spine2
+      position: {x: -0.0048006144, y: 0.011686067, z: -0.0007515794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftArm
+      parentName: BlueGuySkele_Ctrl_LeftShoulder
+      position: {x: -0.0072009214, y: 0, z: 0}
+      rotation: {x: 0.07798124, y: -0.23650424, z: 0.46916103, w: 0.84727365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftForeArm
+      parentName: BlueGuySkele_Ctrl_LeftArm
+      position: {x: -0.018295784, y: 0, z: 0}
+      rotation: {x: 0.000007709282, y: 0.8193249, z: -0.0000065420854, w: 0.5733295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftHand
+      parentName: BlueGuySkele_Ctrl_LeftForeArm
+      position: {x: -0.030085534, y: 0, z: 1.3877787e-19}
+      rotation: {x: 0.00000030091968, y: -0.0000013654023, z: -0.0000004708024, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightShoulder
+      parentName: BlueGuySkele_Ctrl_Spine2
+      position: {x: 0.0048006144, y: 0.011686067, z: -0.0007515794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightArm
+      parentName: BlueGuySkele_Ctrl_RightShoulder
+      position: {x: 0.0072009214, y: 0, z: 0}
+      rotation: {x: -0.026828295, y: 0.45641336, z: -0.5031366, w: 0.7333626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightForeArm
+      parentName: BlueGuySkele_Ctrl_RightArm
+      position: {x: 0.018295784, y: 0, z: -1.3877787e-19}
+      rotation: {x: 0.00000020484195, y: 0.9803276, z: -0.0000014191072, w: -0.19737726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightHand
+      parentName: BlueGuySkele_Ctrl_RightForeArm
+      position: {x: 0.030085534, y: -1.7763568e-17, z: 2.7755575e-19}
+      rotation: {x: -0.00000006550296, y: 0.0000011159107, z: 0.0000001832865, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_HipsEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0, y: 0.049650725, z: -0.00042717456}
+      rotation: {x: -0.000000018379428, y: -5.206468e-24, z: -2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftAnkleEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.016309606, y: 0.00510293, z: 0.019563653}
+      rotation: {x: 0.0000016279516, y: 0.0017225316, z: 0.00067406136, w: 0.99999833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftElbowEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.020196406, y: 0.10192457, z: -0.0046891323}
+      rotation: {x: -0.2522348, y: 0.5127027, z: 0.39996952, w: 0.7166156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftFootEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.016259668, y: 0.00018270283, z: 0.032135844}
+      rotation: {x: 0.0000016279519, y: 0.0017225316, z: 0.00067406136, w: 0.99999833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftHipEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.00922641, y: 0.049650725, z: -0.00042717456}
+      rotation: {x: -0.35457212, y: 0.0131260585, z: -0.07283195, w: 0.9320954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftKneeEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.01262077, y: 0.029843403, z: 0.017366214}
+      rotation: {x: -0.04414863, y: -0.00312249, z: -0.07358664, w: 0.99630624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftShoulderEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.012001541, y: 0.11321636, z: 0.007146236}
+      rotation: {x: 0.18308915, y: -0.2931949, z: 0.43598515, w: 0.8309224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_LeftWristEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: -0.024839234, y: 0.092459485, z: 0.023488823}
+      rotation: {x: -0.25223425, y: 0.51270175, z: 0.39996937, w: 0.7166166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightAnkleEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.019040382, y: 0.005102837, z: -0.020563273}
+      rotation: {x: 0.0000010430814, y: -0.0017585863, z: -0.0006883367, w: 0.9999982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightElbowEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.013411796, y: 0.102611266, z: -0.0076955655}
+      rotation: {x: -0.4207486, y: -0.6148263, z: -0.15089934, w: 0.6497604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightFootEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.01899044, y: 0.00018262446, z: -0.007991064}
+      rotation: {x: 0.0000010430813, y: -0.0017585863, z: -0.0006883367, w: 0.9999982}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightHipEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.00922641, y: 0.049650725, z: -0.00042717456}
+      rotation: {x: 0.07237084, y: -0.015191502, z: 0.099709004, w: 0.992265}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightKneeEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.014596664, y: 0.023624236, z: -0.0042005824}
+      rotation: {x: 0.34911725, y: 0.004241535, z: 0.09651992, w: 0.93208534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightShoulderEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.012001541, y: 0.11321636, z: 0.007146236}
+      rotation: {x: 0.06488561, y: 0.51562476, z: -0.44225636, w: 0.7309791}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Ctrl_RightWristEffector
+      parentName: BlueGuySkele_Ctrl_Reference
+      position: {x: 0.01938185, y: 0.11227707, z: 0.020162467}
+      rotation: {x: -0.4207486, y: -0.61482555, z: -0.15089974, w: 0.6497611}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Guides
+      parentName: RedDudeChar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.000018036366, y: 0.13247202, z: -0.00045027147}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hips
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.000018036366, y: 0.05686984, z: 0.00028930663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftArm
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.011983499, y: 0.120985866, z: -0.0006770992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftFoot
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.010003102, y: 0.0049074544, z: 0.0010102686}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftForeArm
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.030266594, y: 0.12047209, z: -0.00022969245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftHand
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.060349975, y: 0.12013093, z: -0.0001145277}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftLeg
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.010072512, y: 0.029992685, z: -0.00010892391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftShoulder
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.004782578, y: 0.120985866, z: -0.0006770992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftToeBase
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.009953164, y: -0.000012765823, z: 0.0135824615}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftUpLeg
+      parentName: BlueGuySkele_Guides
+      position: {x: -0.009208374, y: 0.056818444, z: 0.00018785715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Reference
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.000018036366, y: -0.00023777007, z: 0.0006150317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightArm
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.012019572, y: 0.120985866, z: -0.0006770992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightFoot
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.010039174, y: 0.0049074544, z: 0.0010102686}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightForeArm
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.030302666, y: 0.12047209, z: -0.00022969245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightHand
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.060386047, y: 0.12013093, z: -0.0001145277}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightLeg
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.010108584, y: 0.029992685, z: -0.00010892391}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightShoulder
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.004818651, y: 0.120985866, z: -0.0006770992}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightToeBase
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.0099892365, y: -0.000012765823, z: 0.0135824615}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightUpLeg
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.009244447, y: 0.056818444, z: 0.00018785715}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.000018036366, y: 0.074556336, z: 0.00029352334}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine1
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.000018036366, y: 0.09017223, z: 0.00018400175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine2
+      parentName: BlueGuySkele_Guides
+      position: {x: 0.000018036366, y: 0.1092998, z: 0.00007448017}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Reference
+      parentName: RedDudeChar(Clone)
+      position: {x: 0.000018036366, y: -0.00023777007, z: 0.0006150317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Hips
+      parentName: BlueGuySkele_Reference
+      position: {x: 0, y: 0.058825362, z: -0.00032572506}
+      rotation: {x: 0.5000596, y: -0.4999404, z: -0.5000596, w: 0.4999404}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Spine
+      parentName: BlueGuySkele_Hips
+      position: {x: -0.017686496, y: -6.4562533e-10, z: 0}
+      rotation: {x: 0, y: -0, z: -0.058930933, w: 0.99826205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BlueGuySkele_Spine1
+      parentName: BlueGuySkele_Spine
+      position: {x: -0.015616282, y: 6.3178385e-10, z: 3.05745e-19}
+      rotation: {x: 0, y: -0, z: -0.031892825, w: 0.99949133}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: BlueGuySkele_Spine2
+      parentName: BlueGuySkele_Spine1
+      position: {x: -0.019127883, y: -0.0000000015131708, z: 5.746271e-19}
+      rotation: {x: -0.000000032383593, y: 0.000000026975165, z: 0.10212517, w: 0.99477154}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000006}
+    - name: BlueGuySkele_LeftShoulder
+      parentName: BlueGuySkele_Spine2
+      position: {x: -0.0117000835, y: -0.0004868137, z: 0.004800615}
+      rotation: {x: -0.4943076, y: 0.50562835, z: 0.4943076, w: 0.50562835}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: BlueGuySkele_LeftArm
+      parentName: BlueGuySkele_LeftShoulder
+      position: {x: -0.0072009256, y: 0, z: 0}
+      rotation: {x: 0.70712894, y: 0.0044811666, z: 0.008015274, w: 0.70702505}
+      scale: {x: 0.99999994, y: 1.0000007, z: 1.0000008}
+    - name: BlueGuySkele_LeftForeArm
+      parentName: BlueGuySkele_LeftArm
+      position: {x: -0.018295782, y: -0.0000000521375, z: 0.000000012458192}
+      rotation: {x: 0.000000029802319, y: 0.00000012363306, z: -0.013369678, w: 0.99991065}
+      scale: {x: 1.0000008, y: 1, z: 1.0000001}
+    - name: BlueGuySkele_LeftHand
+      parentName: BlueGuySkele_LeftForeArm
+      position: {x: -0.03008555, y: -0.000000006051051, z: 0.0000000033393768}
+      rotation: {x: -0.000000090550856, y: 0.00000008494433, z: 0.00000092573464,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: BlueGuySkele_RightShoulder
+      parentName: BlueGuySkele_Spine2
+      position: {x: -0.0117000835, y: -0.0004868137, z: -0.004800615}
+      rotation: {x: 0.50562835, y: 0.4943076, z: -0.50562835, w: 0.4943076}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999999}
+    - name: BlueGuySkele_RightArm
+      parentName: BlueGuySkele_RightShoulder
+      position: {x: 0.0072009256, y: 0, z: -4.440892e-18}
+      rotation: {x: -0.7071288, y: -0.004506187, z: -0.00799041, w: -0.7070253}
+      scale: {x: 0.99999964, y: 1.0000004, z: 1.0000006}
+    - name: BlueGuySkele_RightForeArm
+      parentName: BlueGuySkele_RightArm
+      position: {x: 0.018295793, y: -3.9825598e-10, z: 0.0000000049730784}
+      rotation: {x: -0.00000011920929, y: -0.0000000041909516, z: -0.013312945, w: 0.99991137}
+      scale: {x: 1.0000011, y: 1.0000006, z: 1.0000011}
+    - name: BlueGuySkele_RightHand
+      parentName: BlueGuySkele_RightForeArm
+      position: {x: 0.030085549, y: -0.0000000037979055, z: 0.000000036621692}
+      rotation: {x: -0.000000060290574, y: 0.00000005112301, z: 0.00000088475645,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000005}
+    - name: BlueGuySkele_Head
+      parentName: BlueGuySkele_Spine2
+      position: {x: -0.023178179, y: -2.1816819e-10, z: 8.738669e-19}
+      rotation: {x: -0, y: -0, z: 8.7355275e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: BlueGuySkele_LeftUpLeg
+      parentName: BlueGuySkele_Hips
+      position: {x: 0.00005141769, y: -0.00010143723, z: 0.00922641}
+      rotation: {x: 0.0076659024, y: 0.0012374669, z: -0.99968344, w: 0.023934528}
+      scale: {x: 1.0000005, y: 1.0000007, z: 0.99999994}
+    - name: BlueGuySkele_LeftLeg
+      parentName: BlueGuySkele_LeftUpLeg
+      position: {x: -0.026841346, y: -0.00000017050785, z: -0.00000005741514}
+      rotation: {x: -0.0019290195, y: 0.00006946686, z: 0.032864064, w: -0.99945796}
+      scale: {x: 1.0000005, y: 1, z: 1.0000007}
+    - name: BlueGuySkele_LeftFoot
+      parentName: BlueGuySkele_LeftLeg
+      position: {x: -0.025110267, y: 0.000000006491625, z: -0.0000000046928674}
+      rotation: {x: -0.0035917778, y: -0.00754443, z: 0.5711751, w: 0.8207857}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000007}
+    - name: BlueGuySkele_LeftToeBase
+      parentName: BlueGuySkele_LeftFoot
+      position: {x: -0.013500785, y: -4.55811e-10, z: 0.000000008328289}
+      rotation: {x: -0, y: -0, z: -0.000000037411155, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: BlueGuySkele_RightUpLeg
+      parentName: BlueGuySkele_Hips
+      position: {x: 0.00005141769, y: -0.00010143723, z: -0.00922641}
+      rotation: {x: -0.0012352765, y: 0.007665843, z: 0.023926735, w: 0.9996836}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: BlueGuySkele_RightLeg
+      parentName: BlueGuySkele_RightUpLeg
+      position: {x: 0.02684133, y: 0.000000065344885, z: 0.000000007997598}
+      rotation: {x: 0.001949059, y: -0.00006971136, z: -0.032850046, w: 0.99945843}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000007}
+    - name: BlueGuySkele_RightFoot
+      parentName: BlueGuySkele_RightLeg
+      position: {x: 0.02511029, y: -7.381042e-10, z: -0.000000001194672}
+      rotation: {x: -0.0036105227, y: -0.0075318203, z: 0.57117033, w: 0.82078904}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999996}
+    - name: BlueGuySkele_RightToeBase
+      parentName: BlueGuySkele_RightFoot
+      position: {x: 0.013500788, y: 0.0000000034969767, z: -2.2011452e-10}
+      rotation: {x: 2.3283062e-10, y: -0, z: -0.000000014093528, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1.0000004}
+    - name: Bostaff
+      parentName: RedDudeChar(Clone)
+      position: {x: -0, y: 0.10399093, z: 0.028674934}
+      rotation: {x: 0, y: -0, z: -0.5326417, w: 0.84634084}
+      scale: {x: 0.26381737, y: 9.904214, z: 0.26381737}
+    - name: RedDude
+      parentName: RedDudeChar(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
