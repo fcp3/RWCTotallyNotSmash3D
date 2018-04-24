@@ -120,9 +120,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769889397624792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 814dea76d407f024ebd1f2f05cd1c010, type: 3}
+  m_Script: {fileID: 11500000, guid: b3f66884394a0754492f82f2fd791c0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  playerNum: 0
-  damage: 20
+  speed: 5
+  damage: 5
+  jumpForce: 200

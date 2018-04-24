@@ -28,7 +28,7 @@ public class FightCamera : MonoBehaviour
     Vector3 positionGoal;
     float currentSize, destSize;
     float distance; //distance between characters
-    float delta = (1f / 60f); //to control for time
+    float delta = (1f / 3f); //to control for time
 
     // Use this for initialization
     void Start()

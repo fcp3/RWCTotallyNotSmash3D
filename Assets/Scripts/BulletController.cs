@@ -22,10 +22,9 @@ public class BulletController : MonoBehaviour {
     }
 
     [SerializeField]
-    float speed;
+    protected float speed;
     protected float horizMove;
 
-    [SerializeField]
     int playerNum;
 
     [SerializeField]
@@ -47,11 +46,7 @@ public class BulletController : MonoBehaviour {
         playerNum = 0;
         rBody = GetComponent<Rigidbody>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 
     protected virtual void FixedUpdate()
     {
@@ -66,9 +61,9 @@ public class BulletController : MonoBehaviour {
 
         if(isShooting)
         {
-            if(facingRight)
+			if(facingRight)
             {
-                horizMove = 5;
+				horizMove = 5;
             }
             else
             {
@@ -79,7 +74,7 @@ public class BulletController : MonoBehaviour {
         HandleMovement(horizMove);
     }
 
-    public void HandleMovement(float horizontal)
+    public virtual void HandleMovement(float horizontal)
     {
         if (isShooting)
         {

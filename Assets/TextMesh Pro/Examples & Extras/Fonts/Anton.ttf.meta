@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: 323ac1ea6ff04144f9f5b613bfbc5597
+guid: dde8a69e03cf79e4aa1aeb117413e626
 timeCreated: 1484172033
 licenseType: Store
 TrueTypeFontImporter:
-  serializedVersion: 2
+  serializedVersion: 4
   fontSize: 16
   forceTextureCase: -2
-  characterSpacing: 1
-  characterPadding: 0
+  characterSpacing: 0
+  characterPadding: 1
   includeFontData: 1
-  use2xBehaviour: 0
-  fontNames: []
-  fallbackFontReferences: []
+  fontName: Anton
+  fontNames:
+  - Anton
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 323ac1ea6ff04144f9f5b613bfbc5597, type: 3}
   customCharacters: 
   fontRenderingMode: 0
+  ascentCalculationMode: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

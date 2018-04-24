@@ -4,63 +4,53 @@ using UnityEngine;
 
 public class Stone : BulletController {
 
-    protected bool hitGround = false;
-	
-	// Update is called once per frame
-	void Update () {
-		
+	[SerializeField]
+	float jumpForce;
+
+	protected override void FixedUpdate()
+	{
+		if (!hasGravity)
+		{
+			rBody.useGravity = false;
+		}
+		else
+		{
+			rBody.useGravity = true;
+		}
+
+		if (isShooting)
+		{
+			if (facingRight)
+			{
+				horizMove = 2f;
+				rBody.useGravity = true;
+			}
+			else
+			{
+				horizMove = -2f;
+				rBody.useGravity = true;
+			}
+		}
+
+		HandleMovement(horizMove);
 	}
 
-    protected override void FixedUpdate()
-    {
-        if (!hasGravity)
-        {
-            rBody.useGravity = false;
-        }
-        else
-        {
-            rBody.useGravity = true;
-        }
+	public override void Shoot(Transform t)
+	{
+		base.Shoot(t);
+		transform.localScale = new Vector3(20, 20, 20);
+		rBody.AddForce(new Vector2(0, jumpForce));
+	}
 
-        if (isShooting)
-        {
-            if (!hitGround)
-            {
-                if (facingRight)
-                {
-                    horizMove = 2.5f;
-                }
-                else
-                {
-                    horizMove = -2.5f;
-                }
-            }
-            else
-            {
-                horizMove = 0;
-            }
-        }
-
-        HandleMovement(horizMove);
-    }
-
-    public override void Shoot(Transform t)
-    {
-        rBody.AddForce(new Vector3(0, 15, 0));
-
-        base.Shoot(t);
-
-        transform.localScale = new Vector3(20, 20, 20);
-        this.hasGravity = true;
-    }
-
-    protected override void OnCollisionEnter(Collision col)
-    {
-        if (col.gameObject.tag == "ground")
-        {
-            hitGround = true;
-        }
-
-        base.OnCollisionEnter(col);
-    }
+	public override void HandleMovement(float horizontal)
+	{
+		if (isShooting)
+		{
+			rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
+		}
+		else
+		{
+			rBody.velocity = new Vector2(rBody.velocity.x, rBody.velocity.y);
+		}
+	}
 }

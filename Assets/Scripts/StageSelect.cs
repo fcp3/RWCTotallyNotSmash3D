@@ -14,4 +14,11 @@ public class StageSelect : MonoBehaviour {
     {
         SceneManager.LoadScene("StageGreed");
     }
+
+	public void LoadSloth()
+	{
+		
+	}
+
+
 }

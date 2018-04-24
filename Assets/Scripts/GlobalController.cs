@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class GlobalController : MonoBehaviour {
 
+	public AudioClip[] audioClip;
+	public Scene currentScene;
+
     [SerializeField]
     Light inGameLight;
 
@@ -14,6 +17,8 @@ public class GlobalController : MonoBehaviour {
 
     [SerializeField]
     HealthBar p2Health;
+
+	public bool endGameMusic;
 
     static bool loadLevel = false;
 
@@ -45,8 +50,52 @@ public class GlobalController : MonoBehaviour {
             //SceneManager.LoadScene("2dfighter");
             //loadLevel = true;
         //}
+
+		// Below this comment is the audio management segment for START
+		Scene currentScene = SceneManager.GetActiveScene ();
+		int buildIndex = currentScene.buildIndex;
+
+		endGameMusic = false;
+
+		if (buildIndex == 0)
+		{
+			PlayMusic (0);
+		}
+
+		if (buildIndex == 1)
+		{
+			PlayMusic (0);
+		}
+
+		if (buildIndex == 2)
+		{
+			PlayMusic (Random.Range(2, 5));
+		}
+
+		if (buildIndex == 3)
+		{
+			PlayMusic (Random.Range(2, 5));
+		}
     }
-	
+
+	public void PlayMusic(int clip)
+	{
+		AudioSource audio = GetComponent<AudioSource> ();
+		audio.clip = audioClip [clip];
+		audio.Play ();
+	}
+
+	public void StopMusic()
+	{
+		AudioSource audio = GetComponent<AudioSource> ();
+		audio.Stop ();
+	}
+
+	/* public void EndGameBGM()
+	{
+		endGameMusic = Random.Range(5, 7);
+	}
+    */ 
 	void Update () {
         /*
         if(ticker < timer)
@@ -63,6 +112,11 @@ public class GlobalController : MonoBehaviour {
             }
         }
         */
+
+        if(Input.GetKey(KeyCode.F1))
+        {
+            Application.Quit();
+        }
         if(currentGameState == Gamestate.PAUSE)
         {
             Time.timeScale = 0;
@@ -105,18 +159,22 @@ public class GlobalController : MonoBehaviour {
                 changeGameState(Gamestate.GAME_OVER);
             }
         }
-
-        if (currentGameState == Gamestate.GAME_OVER)
+        else if (currentGameState == Gamestate.GAME_OVER)
         {
-            winnerText.enabled = true;
+			if (endGameMusic) {
+				PlayMusic (5);
+				endGameMusic = false;
+			}
+			winnerText.enabled = true;
             gameOverText.enabled = true;
             Time.timeScale = 0;
             SetWinnerText();
-            
+
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				SceneManager.LoadScene (0);
+			}
         }
-
-        
-
 	}
 
     private void SetWinnerText()
@@ -135,5 +193,7 @@ public class GlobalController : MonoBehaviour {
     {
         prevGameState = currentGameState;
         currentGameState = state;
+		if(state == Gamestate.GAME_OVER)
+			endGameMusic = true;
     }
 }

@@ -19,11 +19,11 @@ public class Star : BulletController {
         {
             if (facingRight)
             {
-                horizMove = 10f;
+                horizMove = 7f;
             }
             else
             {
-                horizMove = -10f;
+                horizMove = -7f;
             }
         }
 
