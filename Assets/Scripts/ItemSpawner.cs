@@ -63,7 +63,7 @@ public class ItemSpawner : MonoBehaviour {
 
     void chooseNextItem()
     {
-        int num = Random.Range(1, 7);
+        int num = Random.Range(3, 6);
         switch (num)
         {
             case 1:
@@ -92,7 +92,7 @@ public class ItemSpawner : MonoBehaviour {
 
     void chooseNextSpawn()
     {
-        nextSpawn = Random.Range(20, 40);
+        nextSpawn = Random.Range(75, 150);
     }
 
     void chooseNextLocation()

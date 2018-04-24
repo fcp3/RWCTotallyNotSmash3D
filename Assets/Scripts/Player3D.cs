@@ -222,6 +222,7 @@ public class Player3D : MonoBehaviour {
             }
             else
             {
+                Debug.Log("Attack triggerrrrr");
                 anim.SetTrigger("attackTrigger");
                 attack1 = false;
                 anim.SetTrigger("attackTrigger");
@@ -300,6 +301,7 @@ public class Player3D : MonoBehaviour {
             rBody.velocity = new Vector2(horizontal * speed, rBody.velocity.y);
         }
         //myAnimator.SetFloat("speed", Mathf.Abs(horizontal));
+        anim.SetFloat("speed", Mathf.Abs(horizontal));
     }
 
     private void ResetValues()

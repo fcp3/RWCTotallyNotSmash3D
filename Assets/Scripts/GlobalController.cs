@@ -112,6 +112,11 @@ public class GlobalController : MonoBehaviour {
             }
         }
         */
+
+        if(Input.GetKey(KeyCode.F1))
+        {
+            Application.Quit();
+        }
         if(currentGameState == Gamestate.PAUSE)
         {
             Time.timeScale = 0;
