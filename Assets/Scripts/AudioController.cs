@@ -36,7 +36,10 @@ public class AudioController : MonoBehaviour {
 
 	void Update ()
 	{
-		
+		if(Input.GetKey(KeyCode.F1))
+        {
+            Application.Quit();
+        }
 	}
 
 	public void PlayMusic(int clip)
